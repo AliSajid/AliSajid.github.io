@@ -1,3 +1,4 @@
 baseURL = 'https://aliimami.com'
 languageCode = 'en-us'
 title = "Ali Imami's Homepage"
+theme = 'LoveIt'
