@@ -2,3 +2,6 @@ baseURL = 'https://aliimami.com'
 languageCode = 'en-us'
 title = "Ali Imami's Homepage"
 theme = 'LoveIt'
+
+googleAnalyticsID = 'G-X1NZCWF97B'
+enableRobotsTXT = true
