@@ -1,7 +1,68 @@
+# Main HUGO Configuration for my website
+
+## Set the baseurl to aliimami.com
 baseURL = 'https://aliimami.com'
-languageCode = 'en-us'
+
+# Site title for ease of use
 title = "Ali Imami's Homepage"
+
+## Set theme to LoveIt (https://hugoloveit.com/)
 theme = 'LoveIt'
 
+## Language settings
+languageCode = 'en-us'
+languageName = 'English'
+
+## Set the default author
+[author]
+name = 'Ali Sajid Imami'
+email = 'hello@aliimami.com'
+
+## Google Analytics Tracking ID
 googleAnalyticsID = 'G-X1NZCWF97B'
-enableRobotsTXT = true
+
+## Copyright Description
+copyright = "Copyright © Ali Sajid Imami 2022"
+
+
+# Tweak Parameters
+[params]
+## Default Theme
+defaultTheme = "dark"
+
+## Use sha512 for SRI
+fingerprint = "sha512"
+
+## Title for OpenGraph etc
+title = "Ali Imami's Homepage"
+
+## Description
+description = "Musings and experiences of a grad student in bioinformatics. Stranger in a strange land."
+
+# Footer configuration
+[params.footer]
+since = 2022
+
+# Section configuration
+[params.section]
+dateFormat = "August 1st, 2020"
+
+[params.social]
+Twitter = "doctor_no"
+Github = "AliSajid"
+Linkedin = "asimami"
+Keybase = "banseljaj"
+Googlescholar = "https://scholar.google.com/citations?user=tGIcYK4AAAAJ"
+
+[params.page]
+[params.page.comment]
+enable = true
+[params.page.comment.disqus]
+enable = true
+shortname = "aliimami"
+
+# Markup configuration
+[markup]
+[markup.highlight]
+noClasses = false
+
