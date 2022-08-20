@@ -11,7 +11,9 @@ repos:
       - id: mixed-line-ending
         args: [ --fix=no ]
       - id: pretty-format-json
-        args: [ --indent "   " ]
+        args:
+          - --indent=4
+          - --autofix
       - id: trailing-whitespace
         args: [ --markdown-linebreak-ext=md ]
 - repo: https://github.com/compilerla/conventional-pre-commit
@@ -20,3 +22,39 @@ repos:
     - id: conventional-pre-commit
       stages: [commit-msg]
       args: []
+- repo: https://github.com/Lucas-C/pre-commit-hooks
+  rev: v1.3.1
+  hooks:
+    - id: forbid-crlf
+    - id: remove-crlf
+    - id: forbid-tabs
+    - id: remove-tabs
+- repo: https://github.com/adrienverge/yamllint
+  rev: v1.27.1
+  hooks:
+    - id: yamllint
+      args: [ --config=$(pwd)/.yamllint.yml ]
+      stages: [commit-msg]
+- repo: https://github.com/codespell-project/codespell
+  rev: v2.2.1
+  hooks:
+    - id: codespell
+      args: [ --config=$(pwd)/.codespell.yml ]
+- repo: https://github.com/igorshubovych/markdownlint-cli
+  rev: v0.32.1
+  hooks:
+    - id: markdownlint
+- repo: https://github.com/Yelp/detect-secrets
+  rev: v1.3.0
+  hooks:
+    - id: detect-secrets
+- repo: https://github.com/sirosen/texthooks
+  rev: 0.3.1
+  hooks:
+    - id: fix-smartquotes
+    - id: fix-ligatures
+    - id: forbid-bidi-controls
+- repo: https://github.com/zricethezav/gitleaks
+  rev: v8.2.0
+  hooks:
+    - id: gitleaks
