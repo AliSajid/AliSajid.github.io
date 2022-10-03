@@ -1,0 +1,31 @@
+{{ $logo := "" }}
+{{ $flavor := "" }}
+{{ $wordmark := false }}
+{{ $width := 100 }}
+{{ $height := 100}}
+{{ $wordmark_text := ""}}
+{{ $alt := "" }}
+
+{{ $logo = .Get "logo" }}
+{{ $flavor = default "original" (.Get "flavor") }}
+{{ $wordmark = isset .Params "wordmark" }}
+{{ $width = default 100 (.Get "width") }}
+{{ $height = default 100 (.Get "height") }}
+{{ if $wordmark }}
+    {{ $wordmark_text = printf "-%s" "wordmark"}}
+{{ end }}
+{{ if isset .Params "alt"}}
+    {{ $alt = .Get "alt" }}
+{{ else }}
+    {{ $alt = $logo | title }}
+{{ end }}
+
+
+
+<img
+src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ $logo }}/{{ printf "%s-%s%s.svg" $logo $flavor $wordmark_text }}'
+width={{ $width }}
+height={{ $height }}
+alt="{{ $alt }}"
+title="{{ $alt }}"
+/>
