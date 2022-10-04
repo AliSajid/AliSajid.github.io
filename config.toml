@@ -17,6 +17,12 @@ subtitle = "I talk about Life, R, Data Science, among other things"
 languageCode = 'en-us'
 languageName = 'English'
 
+# whether to use robots.txt
+enableRobotsTXT = true
+
+# whether to use emoji code
+enableEmoji = true
+
 ## Set the default author
 [author]
 name = 'Ali Sajid Imami'
