@@ -15,9 +15,9 @@ I am Ali Sajid Imami, a bioinformatics scientist and software engineer of Pakist
 I hold an M.S. in Bioinformatics from the University of Toledo and an MB BS from Nishtar Medical University.
 I am currently pursuing a Ph.D. in Bioinformatics at the University of Toledo, focusing on the molecular pathogenesis of Schizophrenia.
 
-I am a self-taught programmer and a self-proclaimed data scientist. I have a keen interest in data science, machine learning, and artificial intelligence. I am currently a graduate research assistant in the  [Cognitive Disorders Research Lab](https://cdrl-ut.org) at the University of Toledo.
+I am a self-taught programmer and a self-proclaimed data scientist. I have a keen interest in data science, machine learning, and artificial intelligence. I am currently PhD Candidate and a graduate research assistant in the  [Cognitive Disorders Research Lab](https://cdrl-ut.org) at the University of Toledo.
 
-I am passionate about solving complicated problems using the simplest and intuitive methods. I also devote more time than I should teaching people all the tools I use, including, but not limited to, R, Python, SQL, Git(Hub), and Bayesian Statistics.
+I am passionate about solving complicated problems using the simplest and intuitive methods. I also devote more time than I should teaching people all the tools I use, including, but not limited to, R, Rust, Python, SQL, Git(Hub), and Bayesian Statistics.
 
 I am a big fan of the [R programming language](https://www.r-project.org/), and I use it for almost all of my data analysis and visualization needs. I also use Python for data analysis and visualization, and I am currently learning Rust, where I am building a suite of CLI tools to query databases I work with every day.
 
@@ -27,6 +27,11 @@ I am a big fan of the [R programming language](https://www.r-project.org/), and 
   * Drug Repurposing and Drug Discovery
   * Genomics, Proteomics, and Kinomics
   * Multi-omics Integration
+* My Personal Interests include:
+  * Reading
+  * Building Electronics projects
+  * Raspberry Pis, Arduinos and the like
+  * Baking
 
 ## Toolbox :hammer_and_wrench:
 
