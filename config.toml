@@ -4,7 +4,7 @@
 baseURL = 'https://aliimami.com'
 
 ## Set theme to LoveIt (https://hugoloveit.com/)
-theme = 'LoveIt'
+theme = 'FixIt'
 
 # Site title for ease of use
 title = "Imamiland"
