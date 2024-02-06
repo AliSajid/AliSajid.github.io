@@ -1,0 +1,3 @@
+[tools]
+hugo = "extended_0.122.0"
+node = "20"
