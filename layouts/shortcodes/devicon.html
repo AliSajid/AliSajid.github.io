@@ -9,8 +9,8 @@
 {{ $logo = .Get "logo" }}
 {{ $flavor = default "original" (.Get "flavor") }}
 {{ $wordmark = isset .Params "wordmark" }}
-{{ $width = default 100 (.Get "width") }}
-{{ $height = default 100 (.Get "height") }}
+{{ $width = default 50 (.Get "width") }}
+{{ $height = default 50 (.Get "height") }}
 {{ if $wordmark }}
     {{ $wordmark_text = printf "-%s" "wordmark"}}
 {{ end }}
