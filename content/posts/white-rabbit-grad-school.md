@@ -32,4 +32,6 @@ Before you go, here's a video of the White Rabbit from the 1951 Disney movie. I 
 
 {{< youtube ZOLpCWlsCjw >}}
 
-So long, and thanks for all the fish!
+{{< center-quote >}}
+So long, and thanks for all the fish.
+{{< /center-quote >}}

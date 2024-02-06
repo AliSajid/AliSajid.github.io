@@ -30,4 +30,6 @@ To facilitate regular posting, I won't limit myself to a single topic. Expect a 
 
 Thank you, dear reader, whoever and wherever you may be. Your support means the world to me.
 
+{{< center-quote >}}
 So long, and thanks for all the fish.
+{{< /center-quote >}}
