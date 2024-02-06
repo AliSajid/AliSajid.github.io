@@ -29,4 +29,6 @@ I think that is the lesson that Chief Tui learns in the movie. He learns that he
 
 I hope that I am able to apply that lesson in my own life. I know I will not always be successful, but I hope I am able to be the father that my daughters need me to be, when it counts.
 
+{{< center-quote >}}
 So long, and thanks for all the fish.
+{{< /center-quote >}}
