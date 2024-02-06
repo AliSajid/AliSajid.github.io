@@ -1,6 +1,9 @@
 ---
 title: "Ali in PhDland: White Rabbit"
 date: 2023-04-26T14:02:21-04:00
+draft: false
+tags: ["phd", "education", "higher-ed", "alice"]
+categories: ["personal", "PhD"]
 ---
 
 ## Alice in Wonderland
