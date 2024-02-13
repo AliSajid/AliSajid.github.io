@@ -6,9 +6,9 @@ categories: ["meta", "personal"]
 tags: ["writers block", "promises", "life"]
 ---
 
-## A New Direction for My Blog
+## A new direction for my blog
 
-Hello, dear readers. It's been a while since I last created a post, and I wanted to take a moment to explain why and share my plans for the future.
+Hello, dear readers. It has been a while since I last created a post, and I wanted to take a moment to explain why and share my plans for the future.
 
 ## Life Happens
 
@@ -20,11 +20,11 @@ However, Another major hurdle I've faced is the dreaded `Writer's Block`. For me
 
 ## A Promise to Myself and You
 
-This blog post serves as a promise to myself and to you, my dear readers. I commit to making a conscious effort to create a post once every two weeks at the very least.
+This blog post serves as a promise to myself and to you, my dear readers. I commit to making a conscious effort to create a post once every two weeks at least.
 
 ## A Mix of Topics
 
-To facilitate regular posting, I won't limit myself to a single topic. Expect a mix of personal stories and thoughts, technical posts about projects I've worked on or lived, and updates on various projects I am currently working on.
+To make regular posting easier, I won't limit myself to a single topic. Expect a mix of personal stories and thoughts, technical posts about projects I've worked on or lived, and updates on various projects I am currently working on.
 
 ## Thank You
 
