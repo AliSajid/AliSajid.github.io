@@ -58,3 +58,11 @@ repos:
   rev: v8.2.0
   hooks:
     - id: gitleaks
+- repo: local
+  hooks:
+    - id: vale-lint
+      name: Vale Lint
+      entry: vale
+      language: system
+      files: \.(md|rst|txt)$
+      always_run: true
