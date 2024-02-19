@@ -23,7 +23,7 @@ This is a throwaway line on its face with no apparent significance. However, as 
 
 This instinct in parents, to protect their children from the pain and suffering that they themselves have experienced, is a natural one. However, it is also a deeply flawed one. It is flawed because it is impossible to live life without experiencing pain and suffering. Pain and suffering are an inescapable part of life and in fact, are just as important in shaping the person you are and will become, as joy and happiness are.
 
-As a father of two daughters, I constantly struggle myself with this. I do not want to see my daughters cry. I definitely want to be a CAUSE of pain to them either. However, I do believe that when they inevitably experience pain, or defeat, or failure, it is my job to be there for them, to help them process it, to help them understand it, and to help them grow from it.
+As a father of two daughters, I constantly struggle myself with this. I do not want to see my daughters cry. I definitely do not want to be a CAUSE of pain to them. However, I do believe that when they inevitably experience pain, or defeat, or failure, it is my job to be there for them, to help them process it, to help them understand it, and to help them grow from it.
 
 I think that is the lesson that Chief Tui learns in the movie. He learns that he cannot protect Moana from the ocean, and that he should not. He learns that he must let her go, and that he must trust that he has given her the tools to survive and thrive in the world. He learns that he must let her find her happiness where she is, and not where he wants her to be.
 
