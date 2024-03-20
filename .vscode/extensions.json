@@ -6,6 +6,8 @@
         "arthaud-proust.hugo-partials-defs",
         "esbenp.prettier-vscode",
         "budparr.language-hugo-vscode",
-        "chrischinchilla.vale-vscode"
+        "chrischinchilla.vale-vscode",
+        "sophodorosllc.codevalet-vscode",
+        "jvalecillos.gpg"
     ]
 }
