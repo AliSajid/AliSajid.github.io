@@ -1,0 +1,3 @@
+[codespell]
+skip="*.code-workspace"
+ignore-words=.codespell-ignore-words.txt

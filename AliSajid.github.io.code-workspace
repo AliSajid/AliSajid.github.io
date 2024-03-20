@@ -1,8 +1,53 @@
 {
-    "folders": [
-        {
-            "path": "."
-        }
+  "extensions": {
+    "recommendations": [
+      "akamud.vscode-theme-onedark",
+      "streetsidesoftware.code-spell-checker",
+      "ecmel.vscode-html-css",
+      "arthaud-proust.hugo-partials-defs",
+      "esbenp.prettier-vscode",
+      "budparr.language-hugo-vscode",
+      "chrischinchilla.vale-vscode"
+    ]
+  },
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.words": [
+      "akamud",
+      "arthaud",
+      "autofix",
+      "budparr",
+      "cartoonishly",
+      "chrischinchilla",
+      "codespell",
+      "ecmel",
+      "esbenp",
+      "linebreak",
+      "Moana",
+      "Moffat",
+      "onedark",
+      "raison",
+      "scminput",
+      "USMLE",
+      "Whvp"
     ],
-    "settings": {}
+    "editor.fontFamily": "FiraCode Nerd Font Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "scminput": false
+    },
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.editor.showTabs": "multiple"
+  }
 }
