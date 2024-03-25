@@ -29,11 +29,13 @@ defaults:
 
 env:
   HUGO_VERSION: 0.122.0
+  CHANGES_TO_PUBLISH: false
 
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     steps:
       - name: Install Hugo CLI
         run: |
@@ -43,6 +45,48 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
+      - name: Update Draft status of posts
+        run: |
+          find . -name "*.md" | while read file; do
+          publish_date=$(grep -Po '(?<=date: ).*' "$file")
+          publish_date=$(date -d "$publish_date" +%s)
+          current_date=$(date +%s)
+          if [ "$publish_date" -le "$current_date" ]; then
+            sed -i 's/draft: true/draft: false/' "$file"
+            echo "Setting $file to be published"
+            echo "CHANGES_TO_PUBLISH=true" >> "$GITHUB_ENV"
+          fi
+          done
+      - name: Import GPG key
+        if: env.CHANGES_TO_PUBLISH == 'true'
+        uses: crazy-max/ghaction-import-gpg@01dd5d3ca463c7f10f7f4f7b4f177225ac661ee4 # v6.1.0
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_KEY_PASSPHRASE }}
+          fingerprint: ${{ secrets.GPG_SUBKEY_FINGERPRINT }}
+          trust_level: 5
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+          git_tag_gpgsign: false
+          git_committer_name: ${{ vars.GIT_AUTHOR_NAME }}
+          git_committer_email: ${{ vars.GIT_AUTHOR_EMAIL }}
+      - name: Test GPG Key Import
+        if: env.CHANGES_TO_PUBLISH == 'true'
+        run: gpg --list-keys --keyid-format LONG
+      - name: Configure Git
+        if: env.CHANGES_TO_PUBLISH == 'true'
+        run: |
+          git config --global user.name "${{ vars.GIT_AUTHOR_NAME }}"
+          git config --global user.email "${{ vars.GIT_AUTHOR_EMAIL }}"
+      - name: Commit changes
+        if: env.CHANGES_TO_PUBLISH == 'true'
+        run: |
+          git add .
+          git commit -m "Auto-publishing posts [skip ci]"
+      - name: Push changes
+        if: env.CHANGES_TO_PUBLISH == 'true'
+        run: |
+          git push
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v1
