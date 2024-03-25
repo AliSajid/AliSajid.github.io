@@ -4,7 +4,7 @@
         "AliSajid"
     ],
     "baseBranches": [
-        "next"
+        "main"
     ],
     "extends": [
         "config:recommended"
