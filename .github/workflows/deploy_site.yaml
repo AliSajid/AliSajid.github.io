@@ -46,18 +46,7 @@ jobs:
         with:
           submodules: recursive
       - name: Update Draft status of posts
-        run: |
-          find . -name "*.md" | while read file; do
-          if grep -q 'draft: true' "$file"; then
-            publish_date=$(grep -Po '(?<=date: ).*' "$file")
-            publish_date=$(date -d "$publish_date" +%s)
-            current_date=$(date +%s)
-            if [ "$publish_date" -le "$current_date" ]; then
-              sed -i 's/draft: true/draft: false/' "$file"
-              echo "CHANGES_TO_PUBLISH=true" >> $GITHUB_ENV
-            fi
-          fi
-          done
+        run: ./scripts/update_drafts.sh
       - name: Import GPG key
         if: env.CHANGES_TO_PUBLISH == 'true'
         uses: crazy-max/ghaction-import-gpg@01dd5d3ca463c7f10f7f4f7b4f177225ac661ee4 # v6.1.0

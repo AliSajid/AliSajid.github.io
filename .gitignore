@@ -76,3 +76,6 @@ Temporary Items
 
 # Vale styles directory
 styles/
+
+# Scripts
+!scripts/
