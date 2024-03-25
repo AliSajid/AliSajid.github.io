@@ -6,8 +6,11 @@ set -x
 # Initialize variable to track if any changes were made
 CHANGES_TO_PUBLISH=false
 
-# Find all Markdown files
-find . -name "*.md" | while read -r file; do
+# Find all Markdown files and read them into an array
+mapfile -t files < <(find ./content -name "*.md")
+
+# Loop over the array
+for file in "${files[@]}"; do
     echo "Processing file: $file"
 
     # Check if the file is a draft
