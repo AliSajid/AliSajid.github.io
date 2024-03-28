@@ -61,11 +61,16 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "on",
     "github.copilot.enable": {
       "*": true,
       "plaintext": false,
       "scminput": false
     },
+    "markdown.editor.filePaste.enabled": true,
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
+    "markdown.math.enabled": true,
     "workbench.colorTheme": "Atom One Dark",
     "workbench.editor.showTabs": "multiple"
   }
