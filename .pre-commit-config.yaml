@@ -64,4 +64,3 @@ repos:
         entry: vale
         language: system
         files: \.(md|rst|txt)$
-        always_run: true
