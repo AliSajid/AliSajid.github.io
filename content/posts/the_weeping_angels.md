@@ -10,13 +10,17 @@ It's no secret for the people around me that I am a big fan of the BBC show Doct
 
 ## The Weeping Angels
 
+<!-- vale alex.ProfanityMaybe = NO -->
 The Weeping Angels are a race of winged humanoids that were introduced in the iconic episode _Blink_ in the third season of the _New Who_ era. Created by Steven Moffat, the weeping angels are everything you have come to expect from him: superficially non-threatening yet tugging at the existential horror that lurks within us all. The angels are winged humanoid statues, no different from any other statue when you look at them. A defining feature of these statues though is that, when spotted in the wild, they tend to cover their eyes with their hands, giving the impression of someone crying. This is how they get their name: The Weeping Angels. On the surface, this is not exactly terrifying. Sure, creepy looking statues are a bit unsettling, but not terrifying. However, the true horror of the Weeping Angels comes from what they do: if they touch you, you end up sent back in time and lose what would have been your future. That is what these angels feed on: the unrealized potential futures of the people they attack.
+<!-- vale alex.ProfanityMaybe = YES -->
 
 The final defining feature of the weeping angels is them being in a _quantum locked state_. What that means, in Doctor Who Parlance, is that they can only move if they are not being observed. If they are observed, they appear as the familiar statue forms. The implication here is that they have a much more terrifying true form, that we are lucky enough not to see.
 
 ## The Opposite Of The Weeping Angels?
 
+<!-- vale proselint.Cliches = NO -->
 Doctor Who has always played fast and loose with scientific terminology to the point that it has built up its own lexicon distinct from what we use in the _real_ world[^1]. That's why, even though the _quantum locked state_ of the weeping angels isn't exactly correctly using the word _quantum_, it's close enough for our understanding, and explained in enough detail in the show that we can just take it as a given. It is, thus, a given that there could exist a state in which being observed will lock you in a state of stasis, trapping you in a situation akin to [_and I must scream!_](https://tvtropes.org/pmwiki/pmwiki.php/Main/AndIMustScream)[^2].
+<!-- vale proselint.Cliches = YES -->
 
 Thus, it follows that there could be a state that is the opposite: A state where one is only able to move or act if they are being observed. This thought, this possibility, is the raison d'etre of this post. What would such a state look like? What would it mean for the people in that state? What would it mean for the people observing them? Does such a state even make sense? Does it already exist? And what would we call such a state? Smiling Angels? Weeping Devils? I don't know, but it's a thought that I can't shake off.
 

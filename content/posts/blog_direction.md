@@ -12,7 +12,7 @@ Hello, dear readers. It has been a while since I last created a post, and I want
 
 ## Life Happens
 
-There are several reasons for my absence, not the least of which are my commitments to my family and my ongoing PhD studies. Balancing these responsibilities with writing can be challenging, and I appreciate your understanding.
+My absence has a lot of reasons, not the least of which are my commitments to my family and my ongoing PhD studies. Balancing these responsibilities with writing can be challenging, and I appreciate your understanding.
 
 ## Overcoming Writer's Block
 
