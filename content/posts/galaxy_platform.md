@@ -1,5 +1,5 @@
 ---
-title: "Galaxy_platform"
+title: "The Galaxy Platform: Bioinformatics for the Masses"
 date: 2024-03-23T13:23:14-04:00
 draft: false
 tags: ["galaxy", "bioinformatics", "gratitude", "technical"]
