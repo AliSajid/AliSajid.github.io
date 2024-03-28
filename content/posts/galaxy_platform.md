@@ -1,6 +1,6 @@
 ---
 title: "Galaxy_platform"
-date: 2024-03-22T13:23:14-04:00
+date: 2024-03-23T13:23:14-04:00
 draft: true
 tags: ["galaxy", "bioinformatics", "gratitude", "technical"]
 categories: ["Bioinformatics", "Galaxy", "Technical"]
