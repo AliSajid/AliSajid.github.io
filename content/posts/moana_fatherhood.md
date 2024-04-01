@@ -3,10 +3,13 @@ title: "Thoughts on Moana and Fatherhood"
 date: 2024-02-06T11:00:00-05:00
 draft: false
 tags: ["fatherhood", "moana", "disney"]
-categories: ["personal", "fatherhood"]
+categories: ["Personal", "Essays"]
 ---
+
 <!-- vale alex.Condescending = NO -->
+
 [Moana](https://www.imdb.com/title/tt3521164/) is a 2016 Disney movie that tells the story of the eponymous character and her journey of self-discovery. Being A Disney movie, and specifically a post-Frozen Disney movie, it is not surprising that the movie has a strong female protagonist. The other strength of this movie is of course, the fantastic soundtrack scored by Lin-Manuel Miranda.
+
 <!-- vale alex.Condescending = YES -->
 
 However, I'm not here to review the entire movie. That has been done over and over and over again by scores of people, from
@@ -17,8 +20,9 @@ amateurs to professionals. I'm here to talk about one particular line that reall
 The song covers the early years of Moana, from when she was a toddler to when she becomes a young woman. It extols the virtues of finding your peace and your happiness in the life that you have, and not in the life that you wish you had. However, about 1 minute and 38 seconds into the song, Moana's father, Chief Tui, sings the following line:
 
 {{< style "text-align:center; strong{color:#00b1ff;}">}}
+
 > "In time you'll learn just as I did, you must find happiness right where you are."
-{{< /style >}}
+> {{< /style >}}
 
 This is a throwaway line on its face with no apparent significance. However, as we find out later from Moana's grandmother, the line is actually a reflection of the Chief's own struggles with his daughter's desire to explore the ocean. The Chief had once been as adventurous as Moana, going so far as to attempt a voyage himself, with his best friend. However, the voyage ended in disaster, and the Chief lost his friend. This loss, this traumatic experience, is the thing that Chief Tui is trying to keep his daughter from experiencing.
 
