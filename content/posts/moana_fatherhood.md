@@ -2,7 +2,7 @@
 title: "Thoughts on Moana and Fatherhood"
 date: 2024-02-06T11:00:00-05:00
 draft: false
-tags: ["fatherhood", "moana", "disney"]
+tags: ["Fatherhood", "Moana", "Disney"]
 categories: ["Personal", "Essays"]
 ---
 

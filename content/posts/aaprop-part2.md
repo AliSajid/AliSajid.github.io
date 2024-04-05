@@ -1,7 +1,7 @@
 ---
 title: "The AAProp Project: Part 2"
 subtitle: "The First Implementation"
-date: 2024-04-06T23:03:30-04:00
+date: 2024-12-31T23:03:30-04:00
 draft: true
 tags: ["Rust", "AAProp", "programming", "project", "bioinformatics"]
 categories: ["Rust", "AAProp", "Programming", "Bioinformatics"]

@@ -2,7 +2,7 @@
 title: "The Zen of Washing Dishes"
 date: 2024-03-31T22:34:24-04:00
 draft: false
-tags: [personal, zen, musings, philosophy, dishes]
+tags: [Personal, Zen, Musings, Philosophy, Dishes]
 categories: ["Personal", "Essays", "Perspective"]
 ---
 

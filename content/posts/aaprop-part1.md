@@ -1,9 +1,9 @@
 ---
 title: "The AAProp Project: Part 1"
 subtitle: "Genesis"
-date: 2024-04-05T23:03:27-04:00
+date: 2024-12-31T23:03:27-04:00
 draft: true
-tags: ["Rust", "AAProp", "programming", "project", "bioinformatics"]
+tags: ["Rust", "AAprop", "Programming", "Project", "Bioinformatics"]
 categories: ["Rust", "AAProp", "Programming", "Bioinformatics"]
 ---
 

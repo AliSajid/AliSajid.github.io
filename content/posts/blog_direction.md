@@ -2,8 +2,8 @@
 title: "Direction For This Blog"
 date: 2024-02-06T11:31:01-05:00
 draft: false
-tags: ["writers block", "promises", "life"]
-categories: ["meta", "personal"]
+tags: ["Writers Block", "Promises", "Life"]
+categories: ["Meta", "Personal"]
 ---
 
 ## A new direction for my blog
