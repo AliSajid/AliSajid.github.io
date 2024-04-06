@@ -1,7 +1,7 @@
 ---
 title: "Kenny Rogers and the Gambler: A Lesson in Negotiation"
 date: 2024-04-05T13:24:19-04:00
-draft: true
+draft: false
 tags:
   ["negotiation", "Kenny Rogers", "the gambler", "lessons", "class assignment"]
 categories: ["Essay", "Negotiation"]
