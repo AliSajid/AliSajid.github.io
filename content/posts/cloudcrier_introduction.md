@@ -1,7 +1,7 @@
 ---
 title: "The Cloud Crier Project: Introduction"
 date: 2024-06-29T20:15:16-04:00
-draft: true
+draft: false
 tags: ["Cloud Crier", "AWS", "Serverless", "Python", "AWS Lambda"]
 categories: ["Essays", "Projects", "Technical", "Progress Reports"]
 ---
