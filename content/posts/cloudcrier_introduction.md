@@ -9,7 +9,7 @@ categories: ["Essays", "Projects", "Technical", "Progress Reports"]
 ## Introduction
 
 Today, I would like to introduce all of you to a project that I have been thinking about
-for a long time now[1]. This project has been living rent-free in my head for
+for a long time now [^1]. This project has been living rent-free in my head for
 more than a decade at this point and really want to get it out of my head and
 into being.
 
@@ -17,7 +17,7 @@ into being.
 
 When I was a little kid, we had exactly one TV channel in our country. That one
 channel was the state-owned broadcaster called [Pakistan Television (PTV)](https://en.wikipedia.org/wiki/Pakistan_Television_Corporation). This channel, not unlike the British Broadcasting Corporation (BBC), had to wear a lot of hats. It provided us with news, entertainment, educational content and even
-post-watershed content[2].
+post-watershed content [^2].
 
 Being the nerd that I was, my two favorite TV _spots_ were the weather forecast
 in the morning, just before I left for school and the tracking of the Pakistan Stock
@@ -69,7 +69,7 @@ The `Cloud Crier` project has two parts:
 I am going to use two different sources of data for this project:
 
 1. The [OpenWeatherMap API](https://openweathermap.org/api).
-2. The NOAA[3]/NWS[4] Weather API available at [weather.gov](https://www.weather.gov/documentation/services-web-api).
+2. The NOAA[^3]/NWS[^4] Weather API available at [weather.gov](https://www.weather.gov/documentation/services-web-api).
 
 Both of these services provide the current weather, as well as hourly forecasts. That said,
 each service has one important advantage that forces me to use both:
@@ -142,13 +142,14 @@ know in the comments below.
 So long, and thanks for all the fish.
 {{< /center-quote >}}
 
-[1]: I first had that idea in the summer of 2012 and have worked on various
-iterations and implementations, off and on, since then. Never came close to
-a _deployable_ state though.
+[^1]:
+    I first had that idea in the summer of 2012 and have worked on various
+    iterations and implementations, off and on, since then. Never came close to
+    a _deployable_ state though.
 
-[2]: The post-watershed content here is in the context of mid-nineties Pakistan.
-Make of that what you will.
+[^2]:
+    The post-watershed content here is in the context of mid-nineties Pakistan.
+    Make of that what you will.
 
-[3]: National Oceanic and Atmospheric Administration
-
-[4]: National Weather Service
+[^3]: National Oceanic and Atmospheric Administration
+[^4]: National Weather Service
