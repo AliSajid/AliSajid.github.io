@@ -1,13 +1,13 @@
 {
-    "recommendations": [
-        "akamud.vscode-theme-onedark",
-        "streetsidesoftware.code-spell-checker",
-        "ecmel.vscode-html-css",
-        "arthaud-proust.hugo-partials-defs",
-        "esbenp.prettier-vscode",
-        "budparr.language-hugo-vscode",
-        "chrischinchilla.vale-vscode",
-        "sophodorosllc.codevalet-vscode",
-        "jvalecillos.gpg"
-    ]
+  "recommendations": [
+    "akamud.vscode-theme-onedark",
+    "arthaud-proust.hugo-partials-defs",
+    "budparr.language-hugo-vscode",
+    "chrischinchilla.vale-vscode",
+    "ecmel.vscode-html-css",
+    "esbenp.prettier-vscode",
+    "jvalecillos.gpg",
+    "sophodorosllc.codevalet-vscode",
+    "streetsidesoftware.code-spell-checker"
+  ]
 }
