@@ -2,8 +2,8 @@
 title: "When we're all driving Rolls-Royce's..."
 date: 2024-02-19T12:50:42-05:00
 draft: false
-tags: [R, Programming, Code-Review, Optimization]
-categories: [Programming, R]
+tags: ["R", "Programming", "Code-Review", "Optimization"]
+categories: ["Programming", "R"]
 ---
 
 Recently, in a meeting with our collaborators, I was asked to provide my _professional opinion_ on some code that they had shared with us.
