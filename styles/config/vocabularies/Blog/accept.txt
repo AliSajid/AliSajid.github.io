@@ -42,3 +42,4 @@ Bazerman
 learnings
 win-win
 Deepak
+(?i)Eid
