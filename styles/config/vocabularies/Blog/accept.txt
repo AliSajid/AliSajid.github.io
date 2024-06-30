@@ -43,3 +43,6 @@ learnings
 win-win
 Deepak
 (?i)Eid
+(?i)serverless
+(?i)Palo
+API

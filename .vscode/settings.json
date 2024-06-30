@@ -4,6 +4,7 @@
   },
   "cSpell.words": [
     "akamud",
+    "Analyse",
     "arthaud",
     "autofix",
     "automerge",
@@ -27,8 +28,10 @@
     "Moana",
     "Moffat",
     "Neuropsychopharmacology",
+    "NOAA",
     "Omics",
     "onedark",
+    "Palo",
     "pocketwatch",
     "Prometric",
     "proselint",
@@ -39,6 +42,7 @@
     "scminput",
     "Transcriptomic",
     "USMLE",
+    "vfok",
     "Whvp",
     "wordmark"
   ],
@@ -46,7 +50,10 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
-  "editor.rulers": [80, 120],
+  "editor.rulers": [
+    80,
+    120
+  ],
   "editor.wordWrap": "on",
   "github.copilot.enable": {
     "*": true,
