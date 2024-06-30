@@ -4,6 +4,11 @@ date: 2024-02-06T11:31:01-05:00
 draft: false
 tags: ["Writers Block", "Promises", "Life"]
 categories: ["Meta", "Personal"]
+author:
+  name: "Ali Sajid Imami"
+  link: "/about_me/"
+  avatar: "/images/aliimami.png"
+  email: "hello@aliimami.com"
 ---
 
 ## A new direction for my blog

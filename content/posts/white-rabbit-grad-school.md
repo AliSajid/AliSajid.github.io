@@ -4,6 +4,11 @@ date: 2023-04-26T14:02:21-04:00
 draft: false
 tags: ["PhD", "Education", "Higher-Ed", "Alice"]
 categories: ["Personal", "PhD", "Perspective"]
+author:
+  name: "Ali Sajid Imami"
+  link: "/about_me/"
+  avatar: "/images/aliimami.png"
+  email: "hello@aliimami.com"
 ---
 
 ## Alice in Wonderland

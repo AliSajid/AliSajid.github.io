@@ -9,8 +9,10 @@ theme = 'FixIt'
 # Site title for ease of use
 title = "Imamiland"
 
+# Site description
 description = "Imamiland is a personal blog by Ali Imami"
 
+# A site subtitle
 subtitle = "I talk about Life, R, Data Science, among other things"
 
 ## Language settings
@@ -25,15 +27,16 @@ enableEmoji = true
 
 ## Set the default author
 [author]
-name = 'Ali Sajid Imami'
-email = 'hello@aliimami.com'
+name = "Ali Sajid Imami"
+link = "https://aliimami.com"
+avatar = "/images/aliimami.png"
+email = "hello@aliimami.com"
 
 ## Google Analytics Tracking ID
 googleAnalyticsID = 'G-X1NZCWF97B'
 
 ## Copyright Description
 copyright = "Copyright © Ali Sajid Imami 2022-2024"
-
 
 # Tweak Parameters
 [params]

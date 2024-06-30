@@ -4,6 +4,11 @@ date: 2024-02-06T11:00:00-05:00
 draft: false
 tags: ["Fatherhood", "Moana", "Disney"]
 categories: ["Personal", "Essays"]
+author:
+  name: "Ali Sajid Imami"
+  link: "/about_me/"
+  avatar: "/images/aliimami.png"
+  email: "hello@aliimami.com"
 ---
 
 <!-- vale alex.Condescending = NO -->

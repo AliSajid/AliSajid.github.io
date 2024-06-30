@@ -4,6 +4,11 @@ date: 2024-03-23T13:23:14-04:00
 draft: false
 tags: ["Galaxy", "Bioinformatics", "Gratitude", "Technical"]
 categories: ["Bioinformatics", "Galaxy", "Technical"]
+author:
+  name: "Ali Sajid Imami"
+  link: "/about_me/"
+  avatar: "/images/aliimami.png"
+  email: "hello@aliimami.com"
 ---
 
 ## Introduction

@@ -4,6 +4,11 @@ date: 2024-06-29T20:15:16-04:00
 draft: false
 tags: ["Cloud Crier", "AWS", "Serverless", "Python", "AWS Lambda"]
 categories: ["Essays", "Projects", "Technical", "Progress Reports"]
+author:
+  name: "Ali Sajid Imami"
+  link: "/about_me/"
+  avatar: "/images/aliimami.png"
+  email: "hello@aliimami.com"
 ---
 
 ## Introduction

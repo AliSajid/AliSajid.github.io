@@ -5,6 +5,11 @@ draft: false
 tags:
   ["Negotiation", "Kenny Rogers", "The Gambler", "Lessons", "Class Assignment"]
 categories: ["Essays", "Negotiation"]
+author:
+  name: "Ali Sajid Imami"
+  link: "/about_me/"
+  avatar: "/images/aliimami.png"
+  email: "hello@aliimami.com"
 ---
 
 {{< admonition type=info title="Article Note" open=True >}}

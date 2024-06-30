@@ -4,6 +4,11 @@ date: 2024-02-19T12:50:42-05:00
 draft: false
 tags: ["R", "Programming", "Code-Review", "Optimization"]
 categories: ["Programming", "R"]
+author:
+  name: "Ali Sajid Imami"
+  link: "/about_me/"
+  avatar: "/images/aliimami.png"
+  email: "hello@aliimami.com"
 ---
 
 Recently, in a meeting with our collaborators, I was asked to provide my _professional opinion_ on some code that they had shared with us.

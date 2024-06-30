@@ -5,6 +5,11 @@ date: 2024-12-31T23:03:30-04:00
 draft: true
 tags: ["Rust", "AAProp", "programming", "project", "bioinformatics"]
 categories: ["Rust", "AAProp", "Programming", "Bioinformatics"]
+author:
+  name: "Ali Sajid Imami"
+  link: "/about_me/"
+  avatar: "/images/aliimami.png"
+  email: "hello@aliimami.com"
 ---
 
 ## Introduction

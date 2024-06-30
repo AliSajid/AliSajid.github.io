@@ -4,6 +4,11 @@ date: 2022-08-19T23:03:12-04:00
 draft: false
 tags: ["First-Post", "Beginning", "Introduction"]
 categories: ["Meta", "Personal"]
+author:
+  name: "Ali Sajid Imami"
+  link: "/about_me/"
+  avatar: "/images/aliimami.png"
+  email: "hello@aliimami.com"
 ---
 
 ## First Post
