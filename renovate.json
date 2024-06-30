@@ -1,24 +1,36 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "assignees": [
-        "AliSajid"
-    ],
-    "baseBranches": [
-        "main"
-    ],
-    "extends": [
-        "config:recommended"
-    ],
-    "gitAuthor": "Imamiland CI Bot <152510784+imamiland-bot@users.noreply.github.com>",
-    "labels": [
-        "dependencies",
-        "renovate"
-    ],
-    "platformCommit": true,
-    "prConcurrentLimit": 5,
-    "schedule": [
-        "after 10pm and before 5am every weekday",
-        "every weekend"
-    ],
-    "semanticCommits": "enabled"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "assignees": ["AliSajid"],
+  "baseBranches": ["main"],
+  "extends": [
+    "config:best-practices",
+    "group:githubArtifactActions",
+    ":rebaseStalePrs"
+  ],
+  "gitAuthor": "Imamiland CI Bot <152510784+imamiland-bot@users.noreply.github.com>",
+  "labels": ["dependencies", "renovate"],
+  "packageRules": [
+    {
+      "automerge": true,
+      "groupName": "Repository Maintenance",
+      "groupSlug": "repository-maintenance",
+      "matchManagers": ["pre-commit", "github-actions"]
+    },
+    {
+      "enabled": false,
+      "matchFileNames": ["Dockerfile"],
+      "matchManagers": ["dockerfile"]
+    }
+  ],
+  "platformCommit": true,
+  "prConcurrentLimit": 5,
+  "pre-commit": {
+    "enabled": true
+  },
+  "schedule": [
+    "after 10pm every weekday",
+    "every weekend",
+    "before 5am every weekday"
+  ],
+  "semanticCommits": "enabled"
 }
