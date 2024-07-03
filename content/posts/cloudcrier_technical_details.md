@@ -1,7 +1,7 @@
 ---
 title: "The Cloud Crier Project: Technical Notes"
 date: 2024-07-01T23:21:58-04:00
-draft: true
+draft: false
 tags: ["Cloud Crier", "AWS", "Serverless", "Python", "AWS Lambda"]
 categories: ["Essays", "Projects", "Technical", "Progress Reports"]
 ---
