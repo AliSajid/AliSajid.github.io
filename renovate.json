@@ -22,7 +22,7 @@
       "matchManagers": ["dockerfile"]
     }
   ],
-  "platformCommit": true,
+  "platformCommit": "enabled",
   "prConcurrentLimit": 5,
   "pre-commit": {
     "enabled": true
