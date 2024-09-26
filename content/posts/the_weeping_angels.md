@@ -31,7 +31,7 @@ Doctor Who has always played fast and loose with scientific terminology to the p
 
 <!-- vale proselint.Cliches = YES -->
 
-Thus, it follows that there could be a state that is the opposite: A state where one is only able to move or act if they are being observed. This thought, this possibility, is the raison d'etre of this post. What would such a state look like? What would it mean for the people in that state? What would it mean for the people observing them? Does such a state even make sense? Does it already exist? And what would we call such a state? Smiling Angels? Weeping Devils? I don't know, but it's a thought that I can't shake off.
+Thus, it follows that there could be a state that is the opposite: A state where one is only able to move or act if they are being observed. This thought, this possibility, is the raison d'être of this post. What would such a state look like? What would it mean for the people in that state? What would it mean for the people observing them? Does such a state even make sense? Does it already exist? And what would we call such a state? Smiling Angels? Weeping Devils? I don't know, but it's a thought that I can't shake off.
 
 ## A Detour Into A Conversation With My Therapist
 
@@ -56,6 +56,9 @@ So long, and thanks for all the fish.
 {{< /center-quote >}}
 
 [^1]: The _real_ world being in quotes here because what is really _real_ anyway?
-[^2]: The namesake of the trope, _I have no mouth and I must scream_ is a short story by Harlan Ellison that is a must read for anyone who is interested in the sci-fi, horror or speculative fiction. I shall not spoil it here, but it is a story that is worth reading.
+
+[^2]: The namesake of the trope, _I have no mouth and I must scream_ is a short story by Harlan Ellison that is a must-read for anyone who is interested in the sci-fi, horror or speculative fiction. I shall not spoil it here, but it is a story that is worth reading.
+
 [^3]: That's definitely a topic for another post.
-[^4]: The word _monster_ is in italics here because with all the superficial veneer of good versus evil in Doctor Who, the how is surprisingly complex and even the worst monsters in there are not always cartoonishly evil and beyond redemption.
+
+[^4]: The word _monster_ is in italics here because with all the superficial veneer of good versus evil in Doctor Who, the _how_ is surprisingly complex, and even the worst monsters in there are not always cartoonishly evil and beyond redemption.

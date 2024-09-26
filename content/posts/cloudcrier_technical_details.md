@@ -13,13 +13,13 @@ author:
 
 ## Introduction
 
-This posts builds onto, and complements the [introduction](/posts/cloudcrier_introduction) to the Cloud Crier project. In this post, I want to discuss and document the technical details of the project. Particularly, I want to lay down the architecture of the project as well as the tools and technologies that I plan to use.
+This post builds onto, and complements the [introduction](/posts/cloudcrier_introduction) to the Cloud Crier project. In this post, I want to discuss and document the technical details of the project. Particularly, I want to lay down the architecture of the project as well as the tools and technologies that I plan to use.
 
 Finally, I also want to list the principles that I hold dear and the ones I mean to follow as this project develops.
 
 ## The Architecture
 
-The Cloud Crier application is a serverless application, written in Python 3.12 and hosted on AWS Lambda. The whole application relies on two Lambda functions. The first one is triggered by a schedule, pushing all the locations into a dedicated SQS queue. This then triggers the Lambda function that gets the data. This function polls the respective APIs for the weather data, transforms it into a consistent format and then stores it in a dynamoDB table.
+The Cloud Crier application is a serverless application, written in Python 3.12 and hosted on AWS Lambda. The whole application relies on two Lambda functions. The first one is triggered by a schedule, pushing all the locations into a dedicated SQS queue. This then triggers the Lambda function that gets the data. This function polls the respective APIs for the weather data, transforms it into a consistent format and then stores it in a DynamoDB table.
 
 The figure below shows the architecture of the Cloud Crier application:
 

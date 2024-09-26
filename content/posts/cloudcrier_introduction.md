@@ -127,7 +127,7 @@ document my progress in this project and share my lessons learned as I go along.
 
 So, we have the data from 8 cities in the world, twice for three of them. Now What?
 
-{{< figure src="/images/8vfok0.jpg" title="Analyse All The Data" alt="Meme template of an excited drawn character with the text 'Analyze all the data' superimposed.">}}
+{{< figure src="/images/8vfok0.jpg" title="Analyze All The Data" alt="Meme template of an excited drawn character with the text 'Analyze all the data' superimposed.">}}
 
 For now, the picture above would have to stand in for the data analysis step. I
 have not yet decided what tools I would use for the analysis, beyond simple
@@ -157,4 +157,5 @@ So long, and thanks for all the fish.
     Make of that what you will.
 
 [^3]: National Oceanic and Atmospheric Administration
+
 [^4]: National Weather Service

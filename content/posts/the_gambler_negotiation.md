@@ -87,7 +87,7 @@ Within that disappearing circle though, there are still thing that need to be pr
 
 <!-- vale alex.ProfanityLikely = NO -->
 
-So letting somethings go while hanging on to others is a part of becoming a negotiation genius. As is negotiating something and not negotiating another. That is mirrored by knowing what to throw away and knowing what to keep, because every hand's both a winner or a loser, depending on the circumstances you find yourself in.
+So letting some things go while hanging on to others is a part of becoming a negotiation genius. As is negotiating something and not negotiating another. That is mirrored by knowing what to throw away and knowing what to keep, because every hand's both a winner or a loser, depending on the circumstances you find yourself in.
 
 <!-- vale alex.ProfanityLikely = YES -->
 
@@ -100,5 +100,7 @@ So long, and thanks for all the fish.
 {{< /center-quote >}}
 
 [^1]: The book is _Negotiation Genius: How to Overcome Obstacles and Achieve Brilliant Results at the Bargaining Table and Beyond_ by Deepak Malhotra and Max Bazerman was the textbook for the class.
+
 [^2]: BATNA is _Best Alternative To a Negotiated Agreement_, aka what you will do if the negotiation fails.
+
 [^3]: RV is _Reservation Value_, aka the least you are willing to accept for the deal to go through.
