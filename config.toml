@@ -67,7 +67,7 @@ avatarURL = ""
 # title shown in home page (HTML format is supported)
 title = "Imamiland"
 # subtitle shown in home page (HTML format is supported)
-subtitle = "The musings of a grad student.<br />Stranger in a strange land."
+subtitle = "The musings of a grad student. \n Stranger in a strange land."
 # whether to use typeit animation for subtitle
 typeit = true
 # whether to show social links
