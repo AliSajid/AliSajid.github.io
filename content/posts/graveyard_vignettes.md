@@ -1,7 +1,7 @@
 ---
 title: "Vignettes from a Graveyard Visit"
 date: 2024-04-13T22:44:13+05:00
-draft: true
+draft: false
 tags: ["Graveyard", "Eid", "Traffic", "Parking", "Beggars", "Pakistan"]
 categories: ["Essays", "Personal", "Pakistan", "Reflections"]
 author:
