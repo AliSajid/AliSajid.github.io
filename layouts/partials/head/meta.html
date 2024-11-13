@@ -1,4 +1,10 @@
 {{- $params := partial "function/params.html" -}}
+<meta
+  http-equiv="Referrer-Policy"
+  content="same-origin" />
+<meta
+  http-equiv="Content-Security-Policy"
+  content="default-src 'self'" />
 
 <meta
   name="author"
@@ -9,9 +15,6 @@
 <meta
   name="description"
   content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage | and .Summary }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-<meta
-  http-equiv="Content-Security-Policy"
-  content="default-src 'self'" />
 
 {{- $keywords := .Keywords -}} {{- if not $keywords -}} {{- if .IsPage | and
 .Params.tags -}} {{- $keywords = .Params.tags -}} {{- else -}} {{- $keywords =
