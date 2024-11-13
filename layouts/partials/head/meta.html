@@ -1,14 +1,11 @@
 {{- $params := partial "function/params.html" -}}
 <meta
-  http-equiv="Referrer-Policy"
+  name="referrer"
   content="same-origin" />
 <meta
   http-equiv="Content-Security-Policy"
   content="default-src 'none' ; frame-ancestors 'self'; base-uri 'none'; form-action 'self'; require-trusted-types-for 'script';" />
 
-<meta
-  http-equiv="Content-Type"
-  content="text/html; charset=utf-8; X-Content-Type-Options=nosniff" />
 <meta
   name="author"
   content="{{ .Site.Params.author.name }}" />
