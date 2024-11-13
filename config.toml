@@ -42,6 +42,7 @@ copyright = "Copyright © Ali Sajid Imami 2022-2024"
 [params]
 ## Default Theme
 defaultTheme = "dark"
+version = "0.3.14"
 
 ## Use sha512 for SRI
 fingerprint = "sha512"
@@ -75,20 +76,34 @@ social = true
 # disclaimer (HTML format is supported)
 disclaimer = ""
 
+[params.backToTop]
+enable = true
+scrollpercent = false
+
 # Footer configuration
 [params.footer]
 since = 2022
+
+# Set up an RSS feed
+[params.feed]
+limit = 10
+fullText = true
+
+[params.cookieconsent]
+enable = true
 
 # Section configuration
 [params.section]
 dateFormat = "Monday, January 2, 2006 3:04 PM EDT"
 
 [params.social]
-Twitter = "doctor_no"
-Github = "AliSajid"
-Linkedin = "asimami"
-Keybase = "banseljaj"
-Googlescholar = "https://scholar.google.com/citations?user=tGIcYK4AAAAJ"
+twitter = "doctor_no"
+github = "AliSajid"
+linkedin = "asimami"
+keybase = "banseljaj"
+googlescholar = "https://scholar.google.com/citations?user=tGIcYK4AAAAJ"
+researchgate = "Ali-Imami"
+orcid = "0000-0003-3684-3539"
 
 [params.page]
 [params.page.comment]
@@ -99,8 +114,17 @@ shortname = "aliimami"
 
 # Markup configuration
 [markup]
+_merge = "shallow"
 [markup.highlight]
 noClasses = false
+
+# Output Configuration
+[outputs]
+_merge = "shallow"
+
+# Taxonomies Configuration
+[taxonomies]
+_merge = "shallow"
 
 # Menu Configuration
 [menu]
