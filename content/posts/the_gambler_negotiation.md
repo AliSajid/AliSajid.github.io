@@ -2,6 +2,7 @@
 title: "Kenny Rogers and the Gambler: A Lesson in Negotiation"
 date: 2024-04-05T13:24:19-04:00
 draft: false
+summary: "I have spent a considerable amount of time in this class. This was not just limited to the time spent _in_ class, but involves the time I spent reading, preparing for the exercises and then just plain trying to apply the lessons to my daily life. This has left me with significant appreciation for the importance of being in such a course and having the kind of systematic tools that [Malhotra and Bazerman](https://www.amazon.com/Negotiation-Genius-Obstacles-Brilliant-Bargaining/dp/0553384112)[^1] promote in their book."
 tags:
   ["Negotiation", "Kenny Rogers", "The Gambler", "Lessons", "Class Assignment"]
 categories: ["Essays", "Negotiation"]
@@ -12,7 +13,7 @@ author:
   email: "hello@aliimami.com"
 ---
 
-{{< admonition type=info title="Article Note" open=True >}}
+{{< admonition type=info title="Article Note" open=false >}}
 A few years ago, I took a class on Negotiation and Conflict Resolution. The assignments for the class
 included writing a negotiation journal. In addition to reflection on the negotiation exercises in class, we were also asked to write two essays: One describing what we hoped to learn from the class, and one describing what we had learned. This is the second essay.
 
