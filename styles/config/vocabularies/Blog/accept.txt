@@ -47,3 +47,5 @@ Deepak
 (?i)Palo
 API
 cron
+(?i)Preload
+(?i)hugo
