@@ -49,3 +49,5 @@ API
 cron
 (?i)Preload
 (?i)hugo
+repo
+Keybase
