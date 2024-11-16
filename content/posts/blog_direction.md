@@ -5,6 +5,7 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
 ---
+
 title: "Direction For This Blog"
 date: 2024-02-06T11:31:01-05:00
 draft: false
@@ -14,7 +15,7 @@ author:
   name: "Ali Sajid Imami"
   link: "/about_me/"
   avatar: "/images/aliimami.png"
-  email: "hello@aliimami.com"
+  email: "<hello@aliimami.com>"
 ---
 
 ## A new direction for my blog

@@ -5,6 +5,7 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
 ---
+
 title: "The Galaxy Platform: Bioinformatics for the Masses"
 date: 2024-03-23T13:23:14-04:00
 draft: false
@@ -14,7 +15,7 @@ author:
   name: "Ali Sajid Imami"
   link: "/about_me/"
   avatar: "/images/aliimami.png"
-  email: "hello@aliimami.com"
+  email: "<hello@aliimami.com>"
 ---
 
 ## Introduction

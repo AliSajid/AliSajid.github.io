@@ -5,6 +5,7 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
 ---
+
 title: "Kenny Rogers and the Gambler: A Lesson in Negotiation"
 date: 2024-04-05T13:24:19-04:00
 draft: false
@@ -16,7 +17,7 @@ author:
   name: "Ali Sajid Imami"
   link: "/about_me/"
   avatar: "/images/aliimami.png"
-  email: "hello@aliimami.com"
+  email: "<hello@aliimami.com>"
 ---
 
 {{< admonition type=info title="Article Note" open=false >}}

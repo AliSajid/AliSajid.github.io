@@ -5,6 +5,7 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
 ---
+
 title: "The Cloud Crier Project: Introduction"
 date: 2024-06-29T20:15:16-04:00
 draft: false
@@ -14,7 +15,7 @@ author:
   name: "Ali Sajid Imami"
   link: "/about_me/"
   avatar: "/images/aliimami.png"
-  email: "hello@aliimami.com"
+  email: "<hello@aliimami.com>"
 ---
 
 ## Introduction

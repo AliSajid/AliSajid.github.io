@@ -5,6 +5,7 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
 ---
+
 title: "The Zen of Washing Dishes"
 date: 2024-03-31T22:34:24-04:00
 draft: false
@@ -14,7 +15,7 @@ author:
   name: "Ali Sajid Imami"
   link: "/about_me/"
   avatar: "/images/aliimami.png"
-  email: "hello@aliimami.com"
+  email: "<hello@aliimami.com>"
 ---
 
 ## Washing dishes: What is it good for?

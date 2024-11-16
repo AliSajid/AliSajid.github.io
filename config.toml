@@ -1,7 +1,7 @@
 # Main HUGO Configuration for my website
 
 ## Set the baseurl to aliimami.com
-baseURL = 'https://aliimami.com'
+baseURL = '//aliimami.com'
 
 ## Set theme to LoveIt (https://hugoloveit.com/)
 theme = 'FixIt'

@@ -5,6 +5,7 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
 ---
+
 title: "The Weeping Angels"
 date: 2024-03-19T19:50:11-04:00
 draft: false
@@ -14,7 +15,7 @@ author:
   name: "Ali Sajid Imami"
   link: "/about_me/"
   avatar: "/images/aliimami.png"
-  email: "hello@aliimami.com"
+  email: "<hello@aliimami.com>"
 ---
 
 It's no secret for the people around me that I am a big fan of the BBC show Doctor Who. How I got into it and how it slowly took over my life is something left for a different time. Today though, I want to talk about a stray thought that I had that I could only really see by drawing a contrast with a _monster_[^4] from the show. The monster in question here are the [Weeping Angels](https://en.wikipedia.org/wiki/Weeping_Angel).

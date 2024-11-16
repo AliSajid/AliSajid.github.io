@@ -5,6 +5,7 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
 ---
+
 title: "When we're all driving Rolls-Royce's..."
 date: 2024-02-19T12:50:42-05:00
 draft: false
@@ -14,7 +15,7 @@ author:
   name: "Ali Sajid Imami"
   link: "/about_me/"
   avatar: "/images/aliimami.png"
-  email: "hello@aliimami.com"
+  email: "<hello@aliimami.com>"
 ---
 
 Recently, in a meeting with our collaborators, I was asked to provide my _professional opinion_ on some code that they had shared with us.
