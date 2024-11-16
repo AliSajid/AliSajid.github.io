@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+-->
+
 ---
 title: "First Post"
 date: 2022-08-19T23:03:12-04:00

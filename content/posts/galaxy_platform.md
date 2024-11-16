@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+-->
+
 ---
 title: "The Galaxy Platform: Bioinformatics for the Masses"
 date: 2024-03-23T13:23:14-04:00

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+-->
+
 ---
 title: "The Zen of Washing Dishes"
 date: 2024-03-31T22:34:24-04:00

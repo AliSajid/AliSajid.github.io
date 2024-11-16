@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+-->
+
 ---
 title: "Direction For This Blog"
 date: 2024-02-06T11:31:01-05:00

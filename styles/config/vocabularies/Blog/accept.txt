@@ -51,3 +51,4 @@ cron
 (?i)hugo
 repo
 Keybase
+(?i)aaprop

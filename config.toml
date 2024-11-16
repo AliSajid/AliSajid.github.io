@@ -35,7 +35,11 @@ email = "hello@aliimami.com"
 ## Google Analytics Tracking ID
 googleAnalyticsID = 'G-X1NZCWF97B'
 
-## Copyright Description
+# Copyright Description
+# SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+#
+# SPDX-License-Identifier: MIT
+
 copyright = "Copyright © Ali Sajid Imami 2022-2024"
 
 # Tweak Parameters
