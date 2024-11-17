@@ -1,11 +1,4 @@
-<!--
-SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
-
-SPDX-License-Identifier: CC-BY-NC-SA-4.0
--->
-
 ---
-
 title: "The Cloud Crier Project: Introduction"
 date: 2024-06-29T20:15:16-04:00
 draft: false

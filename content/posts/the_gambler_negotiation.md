@@ -1,11 +1,4 @@
-<!--
-SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
-
-SPDX-License-Identifier: CC-BY-NC-SA-4.0
--->
-
 ---
-
 title: "Kenny Rogers and the Gambler: A Lesson in Negotiation"
 date: 2024-04-05T13:24:19-04:00
 draft: false

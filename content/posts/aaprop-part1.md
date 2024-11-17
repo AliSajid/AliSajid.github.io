@@ -1,11 +1,4 @@
-<!--
-SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
-
-SPDX-License-Identifier: CC-BY-NC-SA-4.0
--->
-
 ---
-
 title: "The AAProp Project: Part 1"
 subtitle: "Genesis"
 date: 2024-12-31T23:03:27-04:00
@@ -13,10 +6,11 @@ draft: true
 tags: ["Rust", "AAprop", "Programming", "Project", "Bioinformatics"]
 categories: ["Rust", "AAProp", "Programming", "Bioinformatics"]
 author:
-  name: "Ali Sajid Imami"
-  link: "/about_me/"
-  avatar: "/images/aliimami.png"
-  email: "<hello@aliimami.com>"
+name: "Ali Sajid Imami"
+link: "/about_me/"
+avatar: "/images/aliimami.png"
+email: "<hello@aliimami.com>"
+
 ---
 
 ## Introduction

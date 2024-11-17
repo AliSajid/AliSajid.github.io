@@ -1,11 +1,4 @@
-<!--
-SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
-
-SPDX-License-Identifier: CC-BY-NC-SA-4.0
--->
-
 ---
-
 title: "Ali in PhDland: White Rabbit"
 date: 2023-04-26T14:02:21-04:00
 draft: false

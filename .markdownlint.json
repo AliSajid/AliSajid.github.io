@@ -1,16 +1,18 @@
 {
-  "MD003": {
+  "default": true,
+  "heading-style": {
     "style": "atx"
   },
-  "MD007": {
-    "indent": 2
+  "hr-style": {
+    "style": "- - -"
   },
-  "MD013": false,
-  "MD024": false,
-  "MD033": false,
-  "MD041": false,
-  "default": true,
+  "ignore_front_matter": true,
+  "line-length": false,
   "link-fragments": false,
+  "no-duplicate-heading": {
+    "siblings_only": true
+  },
   "no-hard-tabs": true,
+  "no-inline-html": false,
   "whitespace": false
 }

@@ -1,11 +1,4 @@
-<!--
-SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
-
-SPDX-License-Identifier: CC-BY-NC-SA-4.0
--->
-
 ---
-
 title: "When we're all driving Rolls-Royce's..."
 date: 2024-02-19T12:50:42-05:00
 draft: false
