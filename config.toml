@@ -116,6 +116,13 @@ enable = true
 enable = true
 shortname = "aliimami"
 
+# Enable minification
+[minify]
+disableHTML = false
+disableCSS = false
+disableJS = false
+disableJSON = false
+
 # Markup configuration
 [markup]
 _merge = "shallow"
