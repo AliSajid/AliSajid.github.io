@@ -2,7 +2,7 @@
 title: "Kenny Rogers and the Gambler: A Lesson in Negotiation"
 date: 2024-04-05T13:24:19-04:00
 draft: false
-summary: "I have spent a considerable amount of time in this class. This was not just limited to the time spent _in_ class, but involves the time I spent reading, preparing for the exercises and then just plain trying to apply the lessons to my daily life. This has left me with significant appreciation for the importance of being in such a course and having the kind of systematic tools that [Malhotra and Bazerman](https://www.amazon.com/Negotiation-Genius-Obstacles-Brilliant-Bargaining/dp/0553384112)[^1] promote in their book."
+description: "A reflection on lessons learned from a Negotiation and Conflict Resolution class, summarized through the wisdom of Kenny Rogers' song 'The Gambler'. Read about how negotiation strategies like investigative negotiation, sharing information, and knowing when to walk away can be applied in everyday life."
 tags:
   ["Negotiation", "Kenny Rogers", "The Gambler", "Lessons", "Class Assignment"]
 categories: ["Essays", "Negotiation"]

@@ -4,6 +4,7 @@ date: 2024-03-19T19:50:11-04:00
 draft: false
 tags: ["Doctor Who", "Weeping Angels", "Time Travel", "Self-Reflection"]
 categories: ["Personal", "Essays", "Perspective"]
+description: "Exploring the concept of 'inverse weeping angels' - individuals who perform better, are more motivated, and more productive when being observed. Inspired by Doctor Who's Weeping Angels and the author's own experiences with therapy and medical education."
 author:
   name: "Ali Sajid Imami"
   link: "/about_me/"

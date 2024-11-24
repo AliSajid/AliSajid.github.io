@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 date: 2022-08-20T13:11:18-04:00
+summary: "Bioinformatics scientist Ali Sajid Imami's personal website, featuring his research, projects, and skills in computational biology and data science."
 draft: false
 comment: false
 ---

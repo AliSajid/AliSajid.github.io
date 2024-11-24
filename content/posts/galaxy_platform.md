@@ -4,6 +4,7 @@ date: 2024-03-23T13:23:14-04:00
 draft: false
 tags: ["Galaxy", "Bioinformatics", "Gratitude", "Technical"]
 categories: ["Bioinformatics", "Galaxy", "Technical"]
+description: "Get started with Galaxy, a powerful platform for bioinformatics analysis that offers public servers, temporary storage increases, and more - perfect for researchers and scientists on the go."
 author:
   name: "Ali Sajid Imami"
   link: "/about_me/"

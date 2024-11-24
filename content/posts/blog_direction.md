@@ -4,6 +4,7 @@ date: 2024-02-06T11:31:01-05:00
 draft: false
 tags: ["Writers Block", "Promises", "Life"]
 categories: ["Meta", "Personal"]
+description: "Breaking through writer's block and recommitting to regular blogging. Expect a mix of personal anecdotes, technical insights, and project updates in the weeks to come."
 author:
   name: "Ali Sajid Imami"
   link: "/about_me/"

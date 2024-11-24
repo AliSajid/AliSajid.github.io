@@ -4,6 +4,7 @@ date: 2024-02-06T11:00:00-05:00
 draft: false
 tags: ["Fatherhood", "Moana", "Disney"]
 categories: ["Personal", "Essays"]
+description: "Reflections on Disney's Moana and the challenges of fatherhood. How one line from the movie resonated with me as a parent and taught me about letting go and trusting my children to find their own happiness."
 author:
   name: "Ali Sajid Imami"
   link: "/about_me/"

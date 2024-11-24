@@ -2,6 +2,7 @@
 title: "The Cloud Crier Project: Introduction"
 date: 2024-06-29T20:15:16-04:00
 draft: false
+description: "A personal project to explore the reliability of weather forecasts - using data science and AWS tools to analyze temperature, humidity, wind speed, and more."
 tags: ["Cloud Crier", "AWS", "Serverless", "Python", "AWS Lambda"]
 categories: ["Essays", "Projects", "Technical", "Progress Reports"]
 author:

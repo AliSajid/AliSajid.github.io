@@ -4,6 +4,7 @@ date: 2024-03-31T22:34:24-04:00
 draft: false
 tags: ["Personal", "Zen", "Musings", "Philosophy", "Dishes"]
 categories: ["Personal", "Essays", "Perspective"]
+description: "A personal essay about finding calm and comfort in unexpected places, specifically in washing dishes. A heartwarming reflection on how everyday tasks can become meditative experiences, and the importance of shared responsibilities in relationships."
 author:
   name: "Ali Sajid Imami"
   link: "/about_me/"

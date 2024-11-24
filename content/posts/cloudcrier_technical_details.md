@@ -3,6 +3,7 @@ title: "The Cloud Crier Project: Technical Notes"
 date: 2024-07-01T23:21:58-04:00
 draft: false
 tags: ["Cloud Crier", "AWS", "Serverless", "Python", "AWS Lambda"]
+description: "Learn about the tech behind Cloud Crier, a serverless application built on AWS Lambda to collect and analyze weather data."
 categories: ["Essays", "Projects", "Technical", "Progress Reports"]
 author:
   name: "Ali Sajid Imami"

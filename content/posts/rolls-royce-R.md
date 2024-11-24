@@ -4,6 +4,7 @@ date: 2024-02-19T12:50:42-05:00
 draft: false
 tags: ["R", "Programming", "Code-Review", "Optimization"]
 categories: ["Programming", "R"]
+description: "As developers, we often focus on code style and efficiency. But when does it matter? A reflection on prioritizing function over form in programming, using R as an example."
 author:
   name: "Ali Sajid Imami"
   link: "/about_me/"

@@ -4,6 +4,7 @@ date: 2022-08-19T23:03:12-04:00
 draft: false
 tags: ["First-Post", "Beginning", "Introduction"]
 categories: ["Meta", "Personal"]
+description: "The first of many: introducing myself and my blog, where I'll be sharing stories and insights on life as a PhD student, psychiatrist, husband, father, and writer."
 author:
   name: "Ali Sajid Imami"
   link: "/about_me/"

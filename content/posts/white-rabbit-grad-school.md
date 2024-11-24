@@ -4,6 +4,7 @@ date: 2023-04-26T14:02:21-04:00
 draft: false
 tags: ["PhD", "Education", "Higher-Ed", "Alice"]
 categories: ["Personal", "PhD", "Perspective"]
+description: "A personal reflection on feeling overwhelmed and always running behind schedule, inspired by the White Rabbit character from Lewis Carroll's Alice in Wonderland. A heartwarming essay about balancing multiple responsibilities and finding humor in the chaos."
 author:
   name: "Ali Sajid Imami"
   link: "/about_me/"
