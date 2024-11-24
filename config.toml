@@ -9,9 +9,6 @@ theme = 'FixIt'
 # Site title for ease of use
 title = "Imamiland"
 
-# Site description
-description = "Imamiland is a personal blog by Ali Imami"
-
 # A site subtitle
 subtitle = "I talk about Life, R, Data Science, among other things"
 
@@ -50,6 +47,9 @@ version = "0.3.14"
 
 ## Use sha512 for SRI
 fingerprint = "sha512"
+
+# Site description
+description = "Imamiland is a personal blog by Ali Imami"
 
 [params.header.title]
 # URL of the LOGO
