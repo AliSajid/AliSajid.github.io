@@ -1,3 +1,8 @@
 [tools]
 hugo = "extended_0.139.0"
 node = "22"
+
+[tasks]
+start = "./scripts/manage_hugo.sh start"
+stop = "./scripts/manage_hugo.sh stop"
+status = "./scripts/manage_hugo.sh status"
