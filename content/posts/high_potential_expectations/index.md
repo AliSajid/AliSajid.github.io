@@ -2,8 +2,13 @@
 title: "High Potential: Expectations and Disappointments"
 date: 2024-11-20T22:33:52-05:00
 draft: false
-tags: []
-categories: []
+tags: ["NBC", "High Potential", "TV"]
+categories: ["Essay", "Personal", "Reflections", "Reviews"]
+author:
+  name: "Ali Sajid Imami"
+  link: "/about_me/"
+  avatar: "/images/aliimami.png"
+  email: "<hello@aliimami.com>"
 ---
 
 ## Introduction
