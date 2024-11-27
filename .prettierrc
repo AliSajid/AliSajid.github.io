@@ -3,5 +3,14 @@
   "useTabs": false,
   "bracketSameLine": true,
   "singleAttributePerLine": true,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "plugins": ["prettier-plugin-go-template"],
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "go-template"
+      }
+    }
+  ]
 }

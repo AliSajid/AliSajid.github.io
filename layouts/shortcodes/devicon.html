@@ -8,8 +8,8 @@ SPDX-License-Identifier: MIT
 {{ $flavor := "" }}
 {{ $wordmark := false }}
 {{ $width := 100 }}
-{{ $height := 100}}
-{{ $wordmark_text := ""}}
+{{ $height := 100 }}
+{{ $wordmark_text := "" }}
 {{ $alt := "" }}
 
 {{ $logo = .Get "logo" }}
@@ -18,20 +18,18 @@ SPDX-License-Identifier: MIT
 {{ $width = default 50 (.Get "width") }}
 {{ $height = default 50 (.Get "height") }}
 {{ if $wordmark }}
-    {{ $wordmark_text = printf "-%s" "wordmark"}}
+  {{ $wordmark_text = printf "-%s" "wordmark" }}
 {{ end }}
-{{ if isset .Params "alt"}}
-    {{ $alt = .Get "alt" }}
+{{ if isset .Params "alt" }}
+  {{ $alt = .Get "alt" }}
 {{ else }}
-    {{ $alt = $logo | title }}
+  {{ $alt = $logo | title }}
 {{ end }}
-
 
 
 <img
-src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ $logo }}/{{ printf "%s-%s%s.svg" $logo $flavor $wordmark_text }}'
-width={{ $width }}
-height={{ $height }}
-alt="{{ $alt }}"
-title="{{ $alt }}"
-/>
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ $logo }}/{{ printf "%s-%s%s.svg" $logo $flavor $wordmark_text }}"
+  width="{{ $width }}"
+  height="{{ $height }}"
+  alt="{{ $alt }}"
+  title="{{ $alt }}" />
