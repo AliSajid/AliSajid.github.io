@@ -12,6 +12,9 @@ title = "Imamiland"
 # A site subtitle
 subtitle = "I talk about Life, R, Data Science, among other things"
 
+# Add site description
+description = "Imamiland is a personal blog by Ali Imami"
+
 ## Language settings
 languageCode = 'en-us'
 languageName = 'English'
