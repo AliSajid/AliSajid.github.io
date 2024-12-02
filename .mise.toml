@@ -1,5 +1,5 @@
 [tools]
-hugo = "extended_0.139.2"
+hugo = "extended_0.139.3"
 node = "22"
 
 [tasks]
