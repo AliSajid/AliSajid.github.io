@@ -2,7 +2,7 @@
 title: "The AAProp Project: Part 3"
 subtitle: "Continuous Integration and Deployment"
 date: 2024-12-31T23:03:33-04:00
-draft: true
+draft: false
 tags: ["Rust", "AAprop", "Programming", "Project", "Bioinformatics"]
 categories: ["Rust", "AAProp", "Programming", "Bioinformatics"]
 author:
