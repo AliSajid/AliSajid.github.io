@@ -70,3 +70,15 @@ This directory contains an [`index.md`](content/about_me/index.md) file that has
 #### b. [`posts`](content/posts/)
 
 This directory has one post per Markdown file.
+
+## Helping Hands
+
+### Human Contributors
+
+<~--readme: contributors -start -->
+<~--readme: contributors -end -->
+
+### Non-Human Intelligence Contributors
+
+<~--readme: bots -start -->
+<~--readme: bots -end -->

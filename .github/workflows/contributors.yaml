@@ -1,0 +1,18 @@
+name: Update Contributors
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  contributors-readme:
+    runs-on: ubuntu-24.04
+    name: Auto-update the contributor section in README.md
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Update contributors list
+        uses: akhilmhdh/contributors-readme-action@1ff4c56187458b34cd602aee93e897344ce34bfc     # v2.3.10
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
