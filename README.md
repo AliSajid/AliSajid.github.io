@@ -76,10 +76,50 @@ This directory has one post per Markdown file.
 ### Human Intelligence Contributors
 
 <!-- readme: contributors -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/AliSajid">
+                    <img src="https://avatars.githubusercontent.com/u/395482?v=4" width="100;" alt="AliSajid"/>
+                    <br />
+                    <sub><b>Ali Sajid Imami</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/imamiland-bot">
+                    <img src="https://avatars.githubusercontent.com/u/152510784?v=4" width="100;" alt="imamiland-bot"/>
+                    <br />
+                    <sub><b>Imamiland CI Bot</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/snyk-bot">
+                    <img src="https://avatars.githubusercontent.com/u/19733683?v=4" width="100;" alt="snyk-bot"/>
+                    <br />
+                    <sub><b>Snyk bot</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: contributors -end -->
 
 
 ### Non-Human Intelligence Contributors
 
 <!-- readme: bots -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/renovate[bot]">
+                    <img src="https://avatars.githubusercontent.com/in/2740?v=4" width="100;" alt="renovate[bot]"/>
+                    <br />
+                    <sub><b>renovate[bot]</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: bots -end -->
