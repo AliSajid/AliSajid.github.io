@@ -73,12 +73,13 @@ This directory has one post per Markdown file.
 
 ## Helping Hands
 
-### Human Contributors
+### Human Intelligence Contributors
 
-<~--readme: contributors -start -->
-<~--readme: contributors -end -->
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+
 
 ### Non-Human Intelligence Contributors
 
-<~--readme: bots -start -->
-<~--readme: bots -end -->
+<!-- readme: bots -start -->
+<!-- readme: bots -end -->
