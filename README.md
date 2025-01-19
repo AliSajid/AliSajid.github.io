@@ -81,5 +81,5 @@ This directory has one post per Markdown file.
 
 ### Non-Human Intelligence Contributors
 
-<!-- readme: bots -start -->
-<!-- readme: bots -end -->
+<!-- readme: @imamiland-bot,bots,@snyk-bot,@step-security-bot -start -->
+<!-- readme: @imamiland-bot,bots,@snyk-bot,@step-security-bot -end -->
