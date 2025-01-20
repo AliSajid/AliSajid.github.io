@@ -79,8 +79,8 @@ This directory has one post per Markdown file.
 
 <!-- readme: contributors -start -->
 <table>
-    <tbody>
-        <tr>
+	<tbody>
+		<tr>
             <td align="center">
                 <a href="https://github.com/AliSajid">
                     <img src="https://avatars.githubusercontent.com/u/395482?v=4" width="100;" alt="AliSajid"/>
@@ -109,8 +109,8 @@ This directory has one post per Markdown file.
                     <sub><b>Snyk bot</b></sub>
                 </a>
             </td>
-        </tr>
-    <tbody>
+		</tr>
+	<tbody>
 </table>
 <!-- readme: contributors -end -->
 
