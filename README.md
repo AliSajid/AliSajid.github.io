@@ -18,6 +18,7 @@ SPDX-License-Identifier: MIT
 | [PingPong](https://aliimami.pingpong.host/en/)                                                             | Status        | ![PingPong status](https://img.shields.io/pingpong/status/sp_04218273e4d24ea6b54efd839fa4717f?logo=hugo&label=PingPong)                                                   |
 | [PingPong](https://aliimami.pingpong.host/en/)                                                             | 30 Day Uptime | ![PingPong uptime (last 30 days)](https://img.shields.io/pingpong/uptime/sp_04218273e4d24ea6b54efd839fa4717f)                                                             |
 
+
 ![GitHub language count](https://img.shields.io/github/languages/count/AliSajid/AliSajid.github.io?logo=github&label=Languages)
 ![GitHub repo size](https://img.shields.io/github/repo-size/AliSajid/AliSajid.github.io?logo=github&label=Repository%20Size)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AliSajid/AliSajid.github.io?logo=github&label=Code%20Size)
@@ -27,6 +28,7 @@ SPDX-License-Identifier: MIT
 [![GitHub Pages Deploy](https://github.com/AliSajid/AliSajid.github.io/actions/workflows/deploy_site.yaml/badge.svg)](https://github.com/AliSajid/AliSajid.github.io/actions/workflows/deploy_site.yaml)
 ![CII Best Practices](https://img.shields.io/cii/summary/9711?label=CII%20Best%20Practices)
 ![OSSF-Scorecard Score](https://img.shields.io/ossf-scorecard/github.com/AliSajid/AliSajid.github.io)
+
 
 ![Mastodon Follow](https://img.shields.io/mastodon/follow/109904701079311988?style=social)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/doctor_no?style=social)
@@ -77,8 +79,8 @@ This directory has one post per Markdown file.
 
 <!-- readme: contributors -start -->
 <table>
-	<tbody>
-		<tr>
+    <tbody>
+        <tr>
             <td align="center">
                 <a href="https://github.com/AliSajid">
                     <img src="https://avatars.githubusercontent.com/u/395482?v=4" width="100;" alt="AliSajid"/>
@@ -107,8 +109,8 @@ This directory has one post per Markdown file.
                     <sub><b>Snyk bot</b></sub>
                 </a>
             </td>
-		</tr>
-	<tbody>
+        </tr>
+    <tbody>
 </table>
 <!-- readme: contributors -end -->
 

@@ -52,3 +52,4 @@ cron
 repo
 Keybase
 (?i)aaprop
+(?i)snyk
