@@ -4,6 +4,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   contributors-readme:
     runs-on: ubuntu-24.04

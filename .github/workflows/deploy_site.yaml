@@ -9,22 +9,23 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+
 permissions:
   contents: read
   pages: write
   id-token: write
-# Allow one concurrent deployment
+
 concurrency:
   group: "pages"
   cancel-in-progress: true
-# Default to bash
+
 defaults:
   run:
     shell: bash
 env:
   HUGO_VERSION: 0.138.0
   CHANGES_TO_PUBLISH: false
+
 jobs:
   # Build job
   build:
