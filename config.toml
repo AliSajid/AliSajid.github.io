@@ -138,6 +138,8 @@ disableJSON = false
 # Markup configuration
 [markup]
 _merge = "shallow"
+[markup.goldmark.renderer]
+unsafe = "true"
 [markup.goldmark]
 [markup.goldmark.extensions]
 strikethrough = false
