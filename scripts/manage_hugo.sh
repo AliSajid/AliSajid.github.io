@@ -45,8 +45,7 @@ start_hugo() {
   # Run Hugo server in the background and redirect logs
   hugo server -D --minify --gc --cleanDestinationDir \
     --printMemoryUsage --renderStaticToDisk \
-    --templateMetrics --enableGitInfo --disableFastRender \
-    >"$LOG_FILE" 2>&1 &
+    --templateMetrics --enableGitInfo --disableFastRender >"$LOG_FILE" 2>&1 &
 
   # Save the background process ID (PID) to the PID file
   echo $! >"$PID_FILE"
