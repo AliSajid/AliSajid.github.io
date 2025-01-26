@@ -34,7 +34,15 @@ jobs:
       - name: Harden Runner
         uses: step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e # v2.10.4
         with:
-          egress-policy: audit
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            api.github.com:443
+            github.com:443
+            mise-versions.jdx.dev:80
+            mise.jdx.dev:443
+            nodejs.org:443
+            objects.githubusercontent.com:443
 
       - name: Install mise-en-place
         uses: jdx/mise-action@5083fe46898c414b2475087cc79da59e7da859e8 # v2.1.11
