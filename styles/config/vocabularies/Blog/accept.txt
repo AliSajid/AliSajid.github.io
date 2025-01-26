@@ -80,3 +80,4 @@ Tris
 Cha
 Cha Cha
 Spotify
+(?i)Imamiland
