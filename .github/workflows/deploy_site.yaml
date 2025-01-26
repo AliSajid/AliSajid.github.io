@@ -37,9 +37,10 @@ jobs:
           egress-policy: audit
 
       - name: Install mise-en-place
-        uses: jdx/mise-action@5083fe46898c414b2475087cc79da59e7da859e8 # v2
+        uses: jdx/mise-action@5083fe46898c414b2475087cc79da59e7da859e8 # v2.1.11
         with:
           experimental: true
+          install: true
 
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
@@ -52,9 +53,7 @@ jobs:
       - name: Test Hugo
         run: |
           which mise
-          mise current
           mise install
-          mise where hugo
 
       - name: Import GPG key
         if: env.CHANGES_TO_PUBLISH == 'true'
