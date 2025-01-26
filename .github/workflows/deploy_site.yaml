@@ -52,9 +52,8 @@ jobs:
       - name: Test Hugo
         run: |
           which mise
-          which hugo
+          mise current
           mise where hugo
-          hugo version
 
       - name: Import GPG key
         if: env.CHANGES_TO_PUBLISH == 'true'
