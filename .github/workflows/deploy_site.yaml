@@ -49,6 +49,13 @@ jobs:
       - name: Update Draft status of posts
         run: ./scripts/update_drafts.sh
 
+      - name: Test Hugo
+        run: |
+          which mise
+          which hugo
+          mise where hugo
+          hugo version
+
       - name: Import GPG key
         if: env.CHANGES_TO_PUBLISH == 'true'
         uses: crazy-max/ghaction-import-gpg@cb9bde2e2525e640591a934b1fd28eef1dcaf5e5 # v6.2.0
