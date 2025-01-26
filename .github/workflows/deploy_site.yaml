@@ -53,6 +53,7 @@ jobs:
         run: |
           which mise
           mise current
+          mise install
           mise where hugo
 
       - name: Import GPG key
