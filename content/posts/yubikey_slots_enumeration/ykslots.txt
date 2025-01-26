@@ -1,0 +1,945 @@
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 01
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 02
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 03
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 04
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 05
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 06
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 07
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 08
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 09
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 0a
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 0b
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 0c
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 0d
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 0e
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 0f
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 10
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 11
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 12
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 13
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 14
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 15
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 16
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 17
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 18
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 19
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 1a
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 1b
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 1c
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 1d
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 1e
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 1f
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 20
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 21
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 22
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 23
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 24
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 25
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 26
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 27
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 28
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 29
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 2a
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 2b
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 2c
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 2d
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 2e
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 2f
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 30
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 31
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 32
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 33
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 34
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 35
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 36
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 37
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 38
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 39
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 3a
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 3b
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 3c
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 3d
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 3e
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 3f
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 40
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 41
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 42
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 43
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 44
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 45
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 46
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 47
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 48
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 49
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 4a
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 4b
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 4c
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 4d
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 4e
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 4f
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 50
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 51
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 52
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 53
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 54
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 55
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 56
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 57
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 58
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 59
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 5a
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 5b
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 5c
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 5d
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 5e
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 5f
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 60
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 61
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 62
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 63
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 64
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 65
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 66
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 67
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 68
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 69
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 6a
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 6b
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 6c
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 6d
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 6e
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 6f
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 70
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 71
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 72
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 73
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 74
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 75
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 76
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 77
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 78
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 79
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 7a
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 7b
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 7c
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 7d
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 7e
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 7f
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 80
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 81
+ERROR: No key stored in slot 82 (RETIRED1).
+ERROR: No key stored in slot 83 (RETIRED2).
+ERROR: No key stored in slot 84 (RETIRED3).
+ERROR: No key stored in slot 85 (RETIRED4).
+ERROR: No key stored in slot 86 (RETIRED5).
+ERROR: No key stored in slot 87 (RETIRED6).
+ERROR: No key stored in slot 88 (RETIRED7).
+ERROR: No key stored in slot 89 (RETIRED8).
+ERROR: No key stored in slot 8A (RETIRED9).
+ERROR: No key stored in slot 8B (RETIRED10).
+ERROR: No key stored in slot 8C (RETIRED11).
+ERROR: No key stored in slot 8D (RETIRED12).
+ERROR: No key stored in slot 8E (RETIRED13).
+ERROR: No key stored in slot 8F (RETIRED14).
+ERROR: No key stored in slot 90 (RETIRED15).
+ERROR: No key stored in slot 91 (RETIRED16).
+ERROR: No key stored in slot 92 (RETIRED17).
+ERROR: No key stored in slot 93 (RETIRED18).
+ERROR: No key stored in slot 94 (RETIRED19).
+ERROR: No key stored in slot 95 (RETIRED20).
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 96
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 97
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 98
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 99
+ERROR: No key stored in slot 9A (AUTHENTICATION).
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 9b
+ERROR: No key stored in slot 9C (SIGNATURE).
+ERROR: No key stored in slot 9D (KEY_MANAGEMENT).
+ERROR: No key stored in slot 9E (CARD_AUTH).
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": 9f
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": a0
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": a1
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": a2
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": a3
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": a4
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": a5
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": a6
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": a7
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": a8
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": a9
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": aa
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ab
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ac
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ad
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ae
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": af
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": b0
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": b1
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": b2
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": b3
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": b4
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": b5
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": b6
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": b7
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": b8
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": b9
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ba
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": bb
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": bc
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": bd
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": be
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": bf
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": c0
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": c1
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": c2
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": c3
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": c4
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": c5
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": c6
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": c7
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": c8
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": c9
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ca
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": cb
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": cc
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": cd
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ce
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": cf
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": d0
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": d1
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": d2
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": d3
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": d4
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": d5
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": d6
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": d7
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": d8
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": d9
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": da
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": db
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": dc
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": dd
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": de
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": df
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": e0
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": e1
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": e2
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": e3
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": e4
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": e5
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": e6
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": e7
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": e8
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": e9
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ea
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": eb
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ec
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ed
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ee
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ef
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": f0
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": f1
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": f2
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": f3
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": f4
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": f5
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": f6
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": f7
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": f8
+ERROR: No key stored in slot F9 (ATTESTATION).
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": fa
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": fb
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": fc
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": fd
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": fe
+Usage: ykman piv keys info [OPTIONS] SLOT
+Try 'ykman piv keys info -h' for help.
+
+Error: Invalid value for "slot": ff
