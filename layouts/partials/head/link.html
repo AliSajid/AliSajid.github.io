@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: MIT
+-->
+
 {{- $cdn := .Scratch.Get "cdn" | default dict -}}
 {{- $fingerprint := .Scratch.Get "fingerprint" -}}
 {{- $title := printf "%s %s %s" .Title .Site.Params.titleDelimiter .Site.Title -}}

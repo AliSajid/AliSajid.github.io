@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# SPDX-FileCopyrightText: 2021 - 2024 Ali Sajid Imami
 # SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
 #
 # SPDX-License-Identifier: MIT

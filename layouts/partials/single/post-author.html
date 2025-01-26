@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: MIT
+-->
+
 {{- $params := .Params | merge .Site.Params.page -}}
 {{- $author := partial
   "function/get-author-map.html" .Params.author

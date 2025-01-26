@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# SPDX-FileCopyrightText: 2021 - 2024 Ali Sajid Imami
+#
+# SPDX-License-Identifier: MIT
+
 # Script to manage the Hugo development server
 # Usage:
 #   ./manage_hugo.sh start    - Start the Hugo server

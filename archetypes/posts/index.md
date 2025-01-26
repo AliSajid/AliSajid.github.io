@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: 2021 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: MIT
+-->
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
