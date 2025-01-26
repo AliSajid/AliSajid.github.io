@@ -1,7 +1,7 @@
 ---
 title: All the slots in YubiKey Series 5
 date: 2025-01-20T21:23:11-04:00
-draft: true
+draft: false
 tags: []
 categories: []
 author:
