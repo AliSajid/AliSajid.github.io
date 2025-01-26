@@ -16,7 +16,7 @@ SPDX-License-Identifier: MIT
 | [Uptime Robot](https://stats.uptimerobot.com/ki7cmPyCwv)                                                   | 7 Day Uptime  | ![Uptime Robot ratio (7 days)](<https://img.shields.io/uptimerobot/ratio/7/m798028932-a62986d8237832a89e0591a7?logo=hugo&label=Uptime%20(7d)>)                            |
 | [Uptime Robot](https://stats.uptimerobot.com/ki7cmPyCwv)                                                   | 30 Day Uptime | ![Uptime Robot ratio (30 days)](<https://img.shields.io/uptimerobot/ratio/m798028932-a62986d8237832a89e0591a7?logo=hugo&label=Uptime%20(30d)>)                            |
 | [PingPong](https://aliimami.pingpong.host/en/)                                                             | Status        | ![PingPong status](https://img.shields.io/pingpong/status/sp_04218273e4d24ea6b54efd839fa4717f?logo=hugo&label=PingPong)                                                   |
-| [PingPong](https://aliimami.pingpong.host/en/)                                                             | 30 Day Uptime | ![PingPong uptime (last 30 days)](https://img.shields.io/pingpong/uptime/sp_04218273e4d24ea6b54efd839fa4717f)                                                             |
+| [PingPong](https://aliimami.pingpong.host/en/)                                                             | 30 Day Uptime | ![PingPong uptime (last 30 days)](https://img.shields.io/pingpong/uptime/sp_04218273e4d24ea6b54efd839fa4717f?logo=hugo&label=PingPong)                                                             |
 
 
 ![GitHub language count](https://img.shields.io/github/languages/count/AliSajid/AliSajid.github.io?logo=github&label=Languages)
