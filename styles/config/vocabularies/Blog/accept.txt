@@ -77,3 +77,6 @@ Tris
 (?i)fc
 (?i)fd
 (?i)fe
+Cha
+Cha Cha
+Spotify
