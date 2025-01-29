@@ -39,6 +39,7 @@ email = "hello@aliimami.com"
 ## Google Analytics Tracking ID
 # googleAnalyticsID = 'G-X1NZCWF97B'
 
+
 # Copyright Description
 copyright = "Copyright © Ali Sajid Imami 2022-2024"
 
@@ -127,6 +128,13 @@ enable = true
 [params.page.comment.disqus]
 enable = true
 shortname = "aliimami"
+
+
+[params.analytics]
+enable = true
+
+[params.analytics.goatcounter]
+domain = "imamiland.goatcounter.com"
 
 # Enable minification
 [minify]
