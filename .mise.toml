@@ -4,5 +4,6 @@ node = "22"
 
 [tasks]
 start = "./scripts/manage_hugo.sh start"
+restart = "./scripts/manage_hugo.sh restart"
 stop = "./scripts/manage_hugo.sh stop"
 status = "./scripts/manage_hugo.sh status"

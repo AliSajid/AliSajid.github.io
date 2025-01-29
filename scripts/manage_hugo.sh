@@ -38,7 +38,7 @@ is_hugo_running() {
 start_hugo() {
   # Prevent multiple instances of the Hugo server
   if is_hugo_running; then
-    echo "Hugo server is already running. Visit https://localhost:1313 to view the site."
+    echo "Hugo server is already running. Visit http://localhost:1313 to view the site."
     return 0
   fi
 
@@ -53,7 +53,7 @@ start_hugo() {
 
   # Save the background process ID (PID) to the PID file
   echo $! >"$PID_FILE"
-  echo "Hugo server started. Visit https://localhost:1313 to view the site."
+  echo "Hugo server started. Visit http://localhost:1313 to view the site."
 }
 
 # Function to stop the Hugo server
@@ -74,7 +74,7 @@ stop_hugo() {
 # Function to display the status of the Hugo server
 status_hugo() {
   if is_hugo_running; then
-    echo "Hugo server is running. Visit https://localhost:1313 to view the site."
+    echo "Hugo server is running. Visit http://localhost:1313 to view the site."
   else
     echo "Hugo server is not running."
   fi
@@ -82,16 +82,18 @@ status_hugo() {
 
 # Function to display usage instructions
 usage() {
-  echo "Usage: $0 {start|stop|status}"
+  echo "Usage: $0 {start|stop|status|restart}"
   echo
   echo "Commands:"
   echo "  start    - Start the Hugo development server"
   echo "  stop     - Stop the running Hugo server"
   echo "  status   - Check if the Hugo server is running"
+  echo "  restart  - Gracefully restart the Hugo server"
   echo
   echo "Examples:"
   echo "  Start the server: $0 start"
   echo "  Stop the server:  $0 stop"
+  echo "  Restart the status:     $0 status"
   echo "  Check status:     $0 status"
   exit 1
 }
@@ -111,6 +113,10 @@ stop)
   ;;
 status)
   status_hugo
+  ;;
+restart)
+  stop_hugo
+  start_hugo
   ;;
 *)
   usage
