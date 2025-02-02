@@ -29,6 +29,9 @@ enableRobotsTXT = true
 # whether to use emoji code
 enableEmoji = true
 
+# Files to ignore when building the website
+ignoreFiles = ["\\.qmd$"]
+
 ## Set the default author
 [author]
 name = "Ali Sajid Imami"
