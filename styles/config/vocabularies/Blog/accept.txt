@@ -13,7 +13,7 @@
 (?i)Neuropsychopharmacology
 (?i)Omics
 (?i)Proteomics
-(?i)Repurpos[e|(able)|(ing)]
+(?i)Repurpos(e|(able)|(ing))
 (?i)Transcriptomic
 (?i)uncommented
 (?i)uninformational
@@ -81,3 +81,9 @@ Cha
 Cha Cha
 Spotify
 (?i)Imamiland
+(?i)Kinomics
+Gnos
+Iewek
+Unsplash
+devicon
+wordmark

@@ -6,7 +6,7 @@ draft: false
 comment: false
 ---
 
-{{< image src="./header-macbook.jpg" linked="false" title="" width="50%" title="Macbook on a Wooden Desk" caption="Photo by [Iewek Gnos](https://unsplash.com/@imkirk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/study-table?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" >}}
+{{< image src="./header-macbook.jpg" linked="false" title="" width="50%" title="MacBook on a Wooden Desk" caption="Photo by [Iewek Gnos](https://unsplash.com/@imkirk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/study-table?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" >}}
 
 ## Introduction
 
