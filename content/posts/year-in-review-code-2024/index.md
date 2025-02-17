@@ -1,7 +1,7 @@
 ---
 title: "Year in Code: 2024"
 date: 2025-02-16T21:30:16-05:00
-draft: true
+draft: false
 tags: []
 categories: []
 bibFile: "static/bibliography.json"
