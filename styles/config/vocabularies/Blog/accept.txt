@@ -88,3 +88,8 @@ Unsplash
 devicon
 wordmark
 Danskin
+Lua
+franca
+(?i)config
+neovim
+strived
