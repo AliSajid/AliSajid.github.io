@@ -93,3 +93,11 @@ franca
 (?i)config
 neovim
 strived
+Puzzmo
+Zhouqin
+Burnikel
+Flipart
+Bigart
+Monoart
+Memoku
+Ezersky
