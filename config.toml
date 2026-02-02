@@ -44,7 +44,7 @@ email = "hello@aliimami.com"
 
 
 # Copyright Description
-copyright = "Copyright © Ali Sajid Imami 2022-2024"
+copyright = "Copyright © Ali Sajid Imami 2022-2025"
 
 # Tweak Parameters
 [params]
@@ -56,7 +56,7 @@ version = "0.3.14"
 fingerprint = "sha512"
 
 # Site description
-description = "Imamiland is a personal blog by Ali Imami"
+description = "Imamiland is a personal website and blog by Ali Sajid Imami"
 
 [params.header.title]
 # URL of the LOGO

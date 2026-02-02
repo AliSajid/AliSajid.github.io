@@ -101,3 +101,8 @@ Bigart
 Monoart
 Memoku
 Ezersky
+Hiro
+Hamada
+Fransokyo
+(?i)microbots
+(?i)yokai
