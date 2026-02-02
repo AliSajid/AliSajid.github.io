@@ -1,6 +1,6 @@
 [tools]
-"aqua:hugo-extended" = "0.142.0"
-node = "24"
+"aqua:hugo-extended" = "0.147.7"
+node = "22"
 
 [tasks]
 start = "./scripts/manage_hugo.sh start"

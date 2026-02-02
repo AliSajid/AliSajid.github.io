@@ -16,6 +16,12 @@ author:
 ## Introduction
 
 <!-- Write the introduction here -->
+This is the second post in the series about [AAProp](https://aaprop.banseljaj.com),
+a RESTful server I developed to distribute information about Amino Acids.
+
+* [The AAProp Project: Part 1]
+* [The AAProp Project: Part 2]
+* [The AAProp Project: Part 3]
 
 ## Main Content
 
