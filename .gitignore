@@ -18,3 +18,5 @@ styles/*
 !scripts/
 
 /.quarto/
+
+/backup
