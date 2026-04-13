@@ -1,5 +1,8 @@
-# Generated files by hugo
+# =========================================
+# Hugo generated files
+# =========================================
 /public/
+/resources/
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
@@ -7,16 +10,81 @@ hugo_stats.json
 *.pid
 *.log
 
-node_modules/
+# Hugo binaries (optional safety)
+hugo.exe
+hugo.darwin
+hugo.linux
 
+# =========================================
+# Node / frontend tooling
+# =========================================
+node_modules/
+.pnpm-store/
+.npm/
+.cache/
+dist/
+
+# Tailwind / PostCSS artifacts
+*.css.map
+
+# =========================================
+# Pagefind (search index)
+# =========================================
+/public/pagefind/
+
+# =========================================
+# Environment & secrets
+# =========================================
+.env
+.env.*
+!.env.example
+
+# =========================================
+# OS / system files
+# =========================================
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Editor / IDE
+# =========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================================
+# Logs & debugging
+# =========================================
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================================
 # Vale styles directory
+# =========================================
 styles/*
-## Unignore the vocabulary files
 !styles/config/
 
-# Scripts
+# =========================================
+# Scripts (keep tracked)
+# =========================================
 !scripts/
 
+# =========================================
+# Quarto (if experimenting)
+# =========================================
 /.quarto/
 
-/backup
+# =========================================
+# Backup / scratch work
+# =========================================
+/backup/
+*.bak
+*.tmp
+
+# =========================================
+# Optional: local build overrides
+# =========================================
+.local/

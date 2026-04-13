@@ -1,0 +1,63 @@
+{
+    "name": "ali-imami-academic-site",
+    "version": "1.0.0",
+    "private": true,
+    "packageManager": "pnpm@10.14.0",
+    "description": "Personal academic website and CV for Ali Imami, built with HugoBlox, Tailwind CSS v4, and Pagefind search.",
+    "keywords": [
+        "hugo",
+        "hugoblox",
+        "academic-cv",
+        "bioinformatics",
+        "portfolio",
+        "static-site",
+        "tailwindcss",
+        "pagefind"
+    ],
+    "homepage": "https://www.aliimami.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AliSajid>/AliSajid.github.io"
+    },
+    "bugs": {
+        "url": "https://github.com/AliSajid>/AliSajid.github.io/issues"
+    },
+    "author": {
+        "name": "Ali Imami",
+        "url": "https://www.aliimami.com"
+    },
+    "license": "MIT",
+    "scripts": {
+        "dev": "hugo server --disableFastRender --buildDrafts --buildFuture",
+        "build": "hugo --gc --minify && pnpm run pagefind",
+        "preview": "hugo server --minify",
+        "clean": "rm -rf public resources .hugo_build.lock",
+        "pagefind": "pagefind --site public --serve",
+        "analyze": "hugo --templateMetrics --templateMetricsHints",
+        "format": "prettier --write .",
+        "lint": "prettier --check ."
+    },
+    "dependencies": {
+        "@tailwindcss/cli": "^4.1.12",
+        "@tailwindcss/typography": "^0.5.10",
+        "pagefind": "^1.4.0",
+        "preact": "^10.27.2",
+        "tailwindcss": "^4.1.12"
+    },
+    "devDependencies": {
+        "prettier": "^3.3.3"
+    },
+    "engines": {
+        "node": ">=22",
+        "pnpm": ">=10"
+    },
+    "config": {
+        "hugoVersion": ">=0.160.0",
+        "environment": "development"
+    },
+    "browserslist": [
+        "defaults",
+        "not IE 11",
+        "maintained node versions"
+    ]
+}
