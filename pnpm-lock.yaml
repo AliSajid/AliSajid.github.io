@@ -23,6 +23,10 @@ importers:
       tailwindcss:
         specifier: ^4.1.12
         version: 4.1.12
+    devDependencies:
+      prettier:
+        specifier: ^3.3.3
+        version: 3.8.2
 
 packages:
 
@@ -419,6 +423,11 @@ packages:
   preact@10.27.2:
     resolution: {integrity: sha512-5SYSgFKSyhCbk6SrXyMpqjb5+MQBgfvEKE/OC+PujcY34sOpqtr+0AZQtPYx5IA6VxynQ7rUPCtKzyovpj9Bpg==}
 
+  prettier@3.8.2:
+    resolution: {integrity: sha512-8c3mgTe0ASwWAJK+78dpviD+A8EqhndQPUBpNUIPt6+xWlIigCwfN01lWr9MAede4uqXGTEKeQWTvzb3vjia0Q==}
+    engines: {node: '>=14'}
+    hasBin: true
+
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -754,6 +763,8 @@ snapshots:
       util-deprecate: 1.0.2
 
   preact@10.27.2: {}
+
+  prettier@3.8.2: {}
 
   source-map-js@1.2.1: {}
 
