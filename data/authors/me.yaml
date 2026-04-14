@@ -2,115 +2,198 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Dr. Ali Imami
+  given: Ali Sajid
+  family: Imami
+  alternate: "" # Example: 王伟
+  pronunciation: "" # Example: Wáng Wěi
   pronouns: he/him
 postnominals:
+  - MBBS
   - PhD
-  - MIEEE
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: ""
+role: Postdoctoral Researcher
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am a computational biologist and physician-scientist focused on
+  kinase signaling, drug repurposing, and high-dimensional biological data analysis.
+  My work bridges clinical insight with computational methods, with an emphasis on
+  translating omics data into actionable biological understanding.
+
+  I develop tools and pipelines for analyzing kinase activity and gene expression,
+  and I am particularly interested in scalable methods for integrating multi-omics
+  datasets to uncover therapeutic opportunities.
+
+  Prior to my PhD, I trained and practiced as a physician, which continues to shape
+  my research perspective toward clinically meaningful problems.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Cognitive Disorders Research Lab
+    url: https://cdrl-ut.org/
+  - name: The University of Toledo
+    url: https://utoledo.edu
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:hello@aliimami.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/asimami.bsky.social
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/AliSajid
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/asimami/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: "https://scholar.google.com/citations?user=tGIcYK4AAAAJ"
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0003-3684-3539
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Kinase Signaling
+  - Kinome Array Tools
+  - Transcriptomic Drug Repurposing
+  - Bayesian Networks
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD Biomedical Sciences (Bioinformatics)
+    institution: The University of Toledo, Toledo, OH, USA
+    start: 2021-08-11
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Supported by a University of Toledo Graduate Research Fellowship. Research
+      focused on kinase signaling, drug repurposing, and computational methods
+      for high-dimensional biological data. Developed tools for analyzing kinome
+      array data and integrating gene expression signatures for therapeutic discovery.
     button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      text: Dissertation
+      url: http://rave.ohiolink.edu/etdc/view?acc_num=mco1628385958319609
+      icon: hero/academic-cap
+
+  - degree: MS Biomedical Sciences (Bioinformatics)
+    institution: The University of Toledo, Toledo, OH, USA
+    start: 2019-08-11
+    end: 2021-08-10
+    summary: |
+      Fulbright Scholar. Conducted research on inferring kinase networks from
+      kinome array datasets using Bayesian networks. Developed the R package
+      KINNET for inferring and comparing kinase interaction networks.
+    button:
+      text: Thesis
+      url: http://rave.ohiolink.edu/etdc/view?acc_num=mco1628385958319609
+      icon: hero/academic-cap
+
+  - degree: MBBS
+    institution: Nishtar Medical University, Multan, Pakistan
+    start: 2008
+    end: 2014
+    summary: |
+      Medical training with clinical experience in psychiatry and general medicine,
+      with early academic distinction in behavioral sciences.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Predoctoral Graduate Research Assistant
+    org: Cognitive Disorders Research Lab
+    start: 2021-08-11
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Led research on kinase signaling and drug repurposing using
+      transcriptomic and kinome array data. Designed and maintained
+      bioinformatics pipelines and R-based tooling for large-scale
+      data analysis, and contributed to internal computational
+      infrastructure including cloud-based workflows. Mentored
+      junior trainees and contributed to teaching and course
+      development in bioinformatics and data analysis.
+
+  - role: Graduate Research Assistant
+    org: Cognitive Disorders Research Lab
+    start: 2020-01-11
+    end: 2021-08-10
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Conducted research on inferring kinase signaling networks from
+      kinome array data using Bayesian approaches. Developed early
+      versions of drugfindR for gene expression–based drug repurposing
+      and created the KINNET R package for kinase network inference.
+      Built and maintained analysis pipelines for kinome and
+      transcriptomic datasets, establishing core workflows later
+      expanded during doctoral work.
+
+  - role: Physician (Psychiatry)
+    org: Clinical Practice
+    start: 2015-01-01
+    end: 2018-12-31
+    summary: |
+      Completed clinical rotations across major medical specialties
+      during house job training, followed by service as Deputy Medical
+      Superintendent. Managed clinical operations, coordinated care
+      delivery, and supervised clinical staff, developing strong
+      foundations in clinical decision-making and healthcare systems
+      that inform current work in translational computational biology.
 
 skills:
-  - name: Technical Skills
+  - name: Programming & Computational Methods
     items:
-      - label: Python
+      - label: R (Bioconductor, package development)
         level: 5
-      - label: Machine Learning
+      - label: Python (data analysis, scripting)
         level: 5
-      - label: Cloud Computing
+      - label: Statistical Modeling & Inference
+        level: 5
+      - label: Rust (systems and performance-oriented tools)
+        level: 3
+
+  - name: Bioinformatics & Data Systems
+    items:
+      - label: Transcriptomics (RNA-seq, gene expression analysis)
+        level: 5
+      - label: Kinase Signaling & Network Analysis
+        level: 5
+      - label: Drug Repurposing (signature-based methods)
         level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
+      - label: Workflow Design & Reproducible Pipelines
         level: 5
+
+  - name: Research, Teaching & Communication
+    items:
+      - label: Scientific Writing & Publication
+        level: 5
+      - label: Teaching & Course Development
+        level: 4
       - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
         level: 4
 
 languages:
   - name: English
     level: 5
     label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+  - name: Urdu
+    level: 5
+    label: Native
+  - name: Punjabi
+    level: 5
+    label: Native
+  - name: German
+    level: 1
+    label: Beginner
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: University Fellowship
+    awarder: The University of Toledo
+    date: "2021-08-01"
+    summary: Awarded a competitive fellowship supporting doctoral training in biomedical sciences and bioinformatics.
+    icon: "🎓"
+
+  - title: Team Science Award for Excellence in Collaboration
+    awarder: Department of Neurosciences, The University of Toledo
+    date: "2021-05-01"
+    summary: Awarded for excellence in collaborative research, recognizing contributions to interdisciplinary teamwork.
+    icon: "🤝"
+
+  - title: Fulbright Degree Program Grant
+    awarder: United States Department of State
+    date: "2019-08-01"
+    summary: Awarded a highly competitive, merit-based Fulbright grant to support graduate study in the United States, recognizing academic achievement and leadership potential.
+    icon: "🌍"
+
+  - title: Silver Medal in Behavioral Sciences
+    awarder: University of Health Sciences, Lahore, Pakistan
+    date: "2018-09-01"
+    summary: Awarded for achieving the highest score in Behavioral Sciences during MBBS training.
+    icon: "🥇"
