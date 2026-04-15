@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Doomsday_Clock_Graph"
+   font-family="'Liberation Sans', Arial"
+   viewBox="0 0 1698.4226 432.9664"
+   version="1.1"
+   sodipodi:docname="Doomsday_Clock_graph_2.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   width="1700"
+   height="435">
+  <metadata
+     id="metadata626">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs624" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2304"
+     inkscape:window-height="1202"
+     id="namedview622"
+     showgrid="false"
+     inkscape:zoom="7.1560566"
+     inkscape:cx="1584.9236"
+     inkscape:cy="338.38803"
+     inkscape:window-x="2293"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Doomsday_Clock_Graph"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="10"
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0" />
+  <style
+     type="text/css"
+     id="style319">
+  .st21{fill:red}
+  .st22{font-family:Liberation Sans;font-weight:700}
+  .st23{font-size:18px}
+  .st24{font-family:Liberation Sans}
+  .st25,.st27{fill:none;stroke:#000;stroke-miterlimit:10}
+  .st25{stroke-width:4;stroke-linecap:round}
+  .st27{stroke-width:2}
+  .st28{font-size:28px}
+  .st29,.st30{fill:#f66;stroke:#000;stroke-width:4;stroke-miterlimit:10}
+  .st30{fill:#99f}
+ </style>
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+  <g
+     id="Mushroom_Cloud"
+     transform="translate(-10,-8.009375)">
+    <ellipse
+       id="Shadow"
+       cx="28"
+       cy="406"
+       rx="16"
+       ry="4"
+       fill="#554646" />
+    <path
+       id="Mushroom"
+       d="m 34,384 c 0,0.553 1.789,1 4,1 4.422,0 8,-5.367 8,-12 0,-6.08 -8.051,-11 -18,-11 -9.949,0 -18,4.92 -18,11 0,6.633 3.578,12 8,12 2.211,0 4,-0.447 4,-1 v 16 c 0,3.316 -2.684,6 -6,6 h 24 c -3.316,0 -6,-2.684 -6,-6 z"
+       fill="#a08c8c" />
+  </g>
+  <g
+     id="Background"
+     transform="matrix(1.0581326,0,0,1,-28.972493,-5.6378786)">
+    <path
+       id="_x30_"
+       d="m 68,386 h 1500 v 16 H 68 Z"
+       fill="#ffe5e5" />
+    <path
+       id="_x31_"
+       d="m 68,366 h 1500 v 16 H 68 Z"
+       fill="#fde5e7" />
+    <path
+       id="_x32_"
+       d="m 68,346 h 1500 v 16 H 68 Z"
+       fill="#fce5e8" />
+    <path
+       id="_x33_"
+       d="m 68,326 h 1500 v 16 H 68 Z"
+       fill="#fae5ea" />
+    <path
+       id="_x34_"
+       d="m 68,306 h 1500 v 16 H 68 Z"
+       fill="#f9e5eb" />
+    <path
+       id="_x35_"
+       d="m 68,286 h 1500 v 16 H 68 Z"
+       fill="#f7e5ed" />
+    <path
+       id="_x36_"
+       d="m 68,266 h 1500 v 16 H 68 Z"
+       fill="#f6e5ee" />
+    <path
+       id="_x37_"
+       d="m 68,246 h 1500 v 16 H 68 Z"
+       fill="#f4e5f0" />
+    <path
+       id="_x38_"
+       d="m 68,226 h 1500 v 16 H 68 Z"
+       fill="#f3e5f1" />
+    <path
+       id="_x39_"
+       d="m 68,206 h 1500 v 16 H 68 Z"
+       fill="#f1e5f3" />
+    <path
+       id="_x31_0"
+       d="m 68,186 h 1500 v 16 H 68 Z"
+       fill="#f0e5f4" />
+    <path
+       id="_x31_1"
+       d="m 68,166 h 1500 v 16 H 68 Z"
+       fill="#eee5f6" />
+    <path
+       id="_x31_2"
+       d="m 68,146 h 1500 v 16 H 68 Z"
+       fill="#ede5f7" />
+    <path
+       id="_x31_3"
+       d="m 68,126 h 1500 v 16 H 68 Z"
+       fill="#ebe5f9" />
+    <path
+       id="_x31_4"
+       d="m 68,106 h 1500 v 16 H 68 Z"
+       fill="#eae5fa" />
+    <path
+       id="_x31_5"
+       d="m 68,86 h 1500 v 16 H 68 Z"
+       fill="#e8e5fc" />
+    <path
+       id="_x31_6"
+       d="M 68,66 H 1568 V 82 H 68 Z"
+       fill="#e7e5fd" />
+    <path
+       id="_x31_7"
+       d="M 68,46 H 1568 V 62 H 68 Z"
+       fill="#e5e5ff" />
+  </g>
+  <path
+     id="Border"
+     d="M 58.047873,30.038498 H 1631.1206 V 401.94276 H 58.047873 Z"
+     fill="none"
+     stroke="#000000"
+     stroke-width="4.09574" />
+  <g
+     id="X-axis"
+     transform="translate(-10,-8.009375)">
+    <g
+       id="Years"
+       fill="none"
+       stroke="#000000"
+       stroke-linecap="round"
+       stroke-width="4">
+      <g
+         id="_x32_010s"
+         class="st25">
+        <path
+           id="_x39__8_"
+           d="M 1528,410 V 398" />
+        <path
+           id="_x38__8_"
+           d="M 1508,410 V 398" />
+        <path
+           id="_x37__8_"
+           d="M 1488,410 V 398" />
+        <path
+           id="_x36__7_"
+           d="M 1468,410 V 398" />
+        <path
+           id="_x35__7_"
+           d="M 1448,410 V 398" />
+        <path
+           id="_x34__7_"
+           d="M 1428,410 V 398" />
+        <path
+           id="_x33__7_"
+           d="M 1408,410 V 398" />
+        <path
+           id="_x32__7_"
+           d="M 1388,410 V 398" />
+        <path
+           id="_x31__7_"
+           d="M 1368,410 V 398" />
+      </g>
+      <g
+         id="_x32_000s"
+         class="st25">
+        <path
+           id="_x39__7_"
+           d="M 1328,410 V 398" />
+        <path
+           id="_x38__7_"
+           d="M 1308,410 V 398" />
+        <path
+           id="_x37__7_"
+           d="M 1288,410 V 398" />
+        <path
+           id="_x36__6_"
+           d="M 1268,410 V 398" />
+        <path
+           id="_x35__6_"
+           d="M 1248,410 V 398" />
+        <path
+           id="_x34__6_"
+           d="M 1228,410 V 398" />
+        <path
+           id="_x33__6_"
+           d="M 1208,410 V 398" />
+        <path
+           id="_x32__6_"
+           d="M 1188,410 V 398" />
+        <path
+           id="_x31__6_"
+           d="M 1168,410 V 398" />
+      </g>
+      <g
+         id="_x31_990s"
+         class="st25">
+        <path
+           id="_x39__6_"
+           d="M 1128,410 V 398" />
+        <path
+           id="_x38__6_"
+           d="M 1108,410 V 398" />
+        <path
+           id="_x37__6_"
+           d="M 1088,410 V 398" />
+        <path
+           id="_x36__5_"
+           d="M 1068,410 V 398" />
+        <path
+           id="_x35__5_"
+           d="M 1048,410 V 398" />
+        <path
+           id="_x34__5_"
+           d="M 1028,410 V 398" />
+        <path
+           id="_x33__5_"
+           d="M 1008,410 V 398" />
+        <path
+           id="_x32__5_"
+           d="M 988,410 V 398" />
+        <path
+           id="_x31__5_"
+           d="M 968,410 V 398" />
+      </g>
+      <g
+         id="_x31_980s"
+         class="st25">
+        <path
+           id="_x39__5_"
+           d="M 928,410 V 398" />
+        <path
+           id="_x38__5_"
+           d="M 908,410 V 398" />
+        <path
+           id="_x37__5_"
+           d="M 888,410 V 398" />
+        <path
+           id="_x36__4_"
+           d="M 868,410 V 398" />
+        <path
+           id="_x35__4_"
+           d="M 848,410 V 398" />
+        <path
+           id="_x34__4_"
+           d="M 828,410 V 398" />
+        <path
+           id="_x33__4_"
+           d="M 808,410 V 398" />
+        <path
+           id="_x32__4_"
+           d="M 788,410 V 398" />
+        <path
+           id="_x31__4_"
+           d="M 768,410 V 398" />
+      </g>
+      <g
+         id="_x31_970s"
+         class="st25">
+        <path
+           id="_x39__4_"
+           d="M 728,410 V 398" />
+        <path
+           id="_x38__4_"
+           d="M 708,410 V 398" />
+        <path
+           id="_x37__4_"
+           d="M 688,410 V 398" />
+        <path
+           id="_x36__3_"
+           d="M 668,410 V 398" />
+        <path
+           id="_x35__3_"
+           d="M 648,410 V 398" />
+        <path
+           id="_x34__3_"
+           d="M 628,410 V 398" />
+        <path
+           id="_x33__3_"
+           d="M 608,410 V 398" />
+        <path
+           id="_x32__3_"
+           d="M 588,410 V 398" />
+        <path
+           id="_x31__3_"
+           d="M 568,410 V 398" />
+      </g>
+      <g
+         id="_x31_960s"
+         class="st25">
+        <path
+           id="_x39__3_"
+           d="M 528,410 V 398" />
+        <path
+           id="_x38__3_"
+           d="M 508,410 V 398" />
+        <path
+           id="_x37__3_"
+           d="M 488,410 V 398" />
+        <path
+           id="_x36__2_"
+           d="M 468,410 V 398" />
+        <path
+           id="_x35__2_"
+           d="M 448,410 V 398" />
+        <path
+           id="_x34__2_"
+           d="M 428,410 V 398" />
+        <path
+           id="_x33__2_"
+           d="M 408,410 V 398" />
+        <path
+           id="_x32__2_"
+           d="M 388,410 V 398" />
+        <path
+           id="_x31__2_"
+           d="M 368,410 V 398" />
+      </g>
+      <g
+         id="_x31_950s"
+         class="st25">
+        <path
+           id="_x39__2_"
+           d="M 328,410 V 398" />
+        <path
+           id="_x38__2_"
+           d="M 308,410 V 398" />
+        <path
+           id="_x37__2_"
+           d="M 288,410 V 398" />
+        <path
+           id="_x36__1_"
+           d="M 268,410 V 398" />
+        <path
+           id="_x35__1_"
+           d="M 248,410 V 398" />
+        <path
+           id="_x34__1_"
+           d="M 228,410 V 398" />
+        <path
+           id="_x33__1_"
+           d="M 208,410 V 398" />
+        <path
+           id="_x32__1_"
+           d="M 188,410 V 398" />
+        <path
+           id="_x31__1_"
+           d="M 168,410 V 398" />
+      </g>
+      <g
+         id="_x31_940s"
+         class="st25">
+        <path
+           id="_x39__1_"
+           d="M 128,410 V 398" />
+        <path
+           id="_x38__1_"
+           d="M 108,410 V 398" />
+        <path
+           id="_x37__1_"
+           d="M 88,410 V 398" />
+      </g>
+    </g>
+    <g
+       id="Decades">
+      <g
+         id="Markers"
+         class="st25"
+         fill="none"
+         stroke="#000"
+         stroke-linecap="round"
+         stroke-width="4">
+        <path
+           id="_x32_020"
+           d="M 1548,422 V 386" />
+        <path
+           id="_x32_010"
+           d="M 1348,422 V 386" />
+        <path
+           id="_x32_000"
+           d="M 1148,422 V 386" />
+        <path
+           id="_x31_990"
+           d="M 948,422 V 386" />
+        <path
+           id="_x31_980"
+           d="M 748,422 V 386" />
+        <path
+           id="_x31_970"
+           d="M 548,422 V 386" />
+        <path
+           id="_x31_960"
+           d="M 348,422 V 386" />
+        <path
+           id="_x31_950"
+           d="M 148,422 V 386" />
+      </g>
+    </g>
+  </g>
+  <path
+     id="Line"
+     d="m 1332,279.99063 h -48 v -40.00001 h -100 v -40 h -80 V 99.990625 h -60 v -60 H 952 V 179.99062 h -20 v 80.00001 h -40 v 60 h -68 v -20 h -60 v -60.00001 h -20 v -40 H 624 v -60 h -52 v 40 h -60 v 60 h -8 v -100 H 392 v 100 H 332 V 339.99063 H 204 v -20 H 124 V 239.99062 H 84 v 12 h 28 v 80.00001 h 80 v 20 H 344 V 251.99062 h 60 v -100 h 88 v 100 h 32 v -60 h 60 v -40 h 28 v 60 h 120 v 40 h 20 v 60.00001 h 60 v 20 h 92 v -60 h 40 v -80.00001 h 20 V 51.990625 h 68 v 59.999995 h 60 v 100 h 80 v 40 h 100 v 40.00001 h 72 v -20 h 28 v 20 h 60 v 40 h 40 v 10 h 20 v 10 h 40 l 0.2964,5.34172 70.8002,-0.0522 -0.095,-10.87003 -59.0016,0.25055 v -6.67 h -40 v -10 h -20 v -10 h -40 v -40 h -60 v -20 h -52 z"
+     fill="#d35f5f"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  <g
+     id="Data_Labels"
+     transform="translate(-10,-8.009375)">
+    <g
+       id="_x32_020_2_"
+       class="st27">
+      <path
+         id="Line_1_"
+         d="m 1540,154 h 8 v 206.67"
+         fill="none"
+         stroke="#000000"
+         stroke-width="2" />
+    </g>
+    <g
+       id="_x32_018_1_">
+      <path
+         id="Line_2_"
+         d="m 1500,194 h 8 v 160"
+         fill="none"
+         stroke="#000000"
+         stroke-width="2" />
+    </g>
+    <g
+       id="_x32_017_1_">
+      <path
+         id="Line_3_"
+         d="m 1480,234 h 8 v 110"
+         fill="none"
+         stroke="#000000"
+         stroke-width="2" />
+    </g>
+  </g>
+  <g
+     id="Data"
+     stroke="#000000"
+     stroke-width="4"
+     transform="translate(-10,-8.009375)">
+    <g
+       fill="#ff6666"
+       id="g443">
+      <path
+         id="_x32_020_1_"
+         class="st29"
+         d="m 1542,354.67 h 12 l -0.3952,12 H 1542 Z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="_x32_018"
+         class="st29"
+         d="m 1502,348 h 12 v 12 h -12 z" />
+      <path
+         id="_x32_017"
+         class="st29"
+         d="m 1482,338 h 12 v 12 h -12 z" />
+      <path
+         id="_x32_015"
+         class="st29"
+         d="m 1442,328 h 12 v 12 h -12 z" />
+      <path
+         id="_x32_012"
+         class="st29"
+         d="m 1382,288 h 12 v 12 h -12 z" />
+    </g>
+    <path
+       id="_x32_010_1_"
+       class="st30"
+       d="m 1342,268 h 12 v 12 h -12 z"
+       fill="#99f" />
+    <g
+       fill="#ff6666"
+       id="g450">
+      <path
+         id="_x32_007"
+         class="st29"
+         d="m 1282,288 h 12 v 12 h -12 z" />
+      <path
+         id="_x32_002"
+         class="st29"
+         d="m 1182,248 h 12 v 12 h -12 z" />
+      <path
+         id="_x31_998"
+         class="st29"
+         d="m 1102,208 h 12 v 12 h -12 z" />
+      <path
+         id="_x31_995"
+         class="st29"
+         d="m 1042,108 h 12 v 12 h -12 z" />
+    </g>
+    <g
+       fill="#9999ff"
+       id="g455">
+      <path
+         id="_x31_991"
+         class="st30"
+         d="m 962,48 h 12 v 12 h -12 z" />
+      <path
+         id="_x31_990_1_"
+         class="st30"
+         d="m 942,188 h 12 v 12 h -12 z" />
+      <path
+         id="_x31_988"
+         class="st30"
+         d="m 902,268 h 12 v 12 h -12 z" />
+    </g>
+    <g
+       fill="#ff6666"
+       id="g461">
+      <path
+         id="_x31_984"
+         class="st29"
+         d="m 822,328 h 12 v 12 h -12 z" />
+      <path
+         id="_x31_981"
+         class="st29"
+         d="m 762,308 h 12 v 12 h -12 z" />
+      <path
+         id="_x31_980_1_"
+         class="st29"
+         d="m 742,248 h 12 v 12 h -12 z" />
+      <path
+         id="_x31_974"
+         class="st29"
+         d="m 622,208 h 12 v 12 h -12 z" />
+    </g>
+    <path
+       id="_x31_972"
+       class="st30"
+       d="m 582,148 h 12 v 12 h -12 z"
+       fill="#99f" />
+    <path
+       id="_x31_969"
+       class="st30"
+       d="m 522,188 h 12 v 12 h -12 z"
+       fill="#99f" />
+    <path
+       id="_x31_968"
+       class="st29"
+       d="m 502,248 h 12 v 12 h -12 z"
+       fill="#f66" />
+    <path
+       id="_x31_963"
+       class="st30"
+       d="m 402,148 h 12 v 12 h -12 z"
+       fill="#99f" />
+    <path
+       id="_x31_960_1_"
+       class="st30"
+       d="m 342,248 h 12 v 12 h -12 z"
+       fill="#99f" />
+    <path
+       id="_x31_953"
+       class="st29"
+       d="m 202,348 h 12 v 12 h -12 z"
+       fill="#f66" />
+    <path
+       id="_x31_949_1_"
+       class="st29"
+       d="m 122,328 h 12 v 12 h -12 z"
+       fill="#f66" />
+    <path
+       id="_x31_947_1_"
+       d="m 82,248 h 12 v 12 H 82 Z"
+       fill="#999999" />
+  </g>
+  <g
+     id="Y-axis"
+     font-size="18px"
+     transform="matrix(1.0488141,0,0,1,-12.018519,-8.009375)">
+    <g
+       id="Time">
+      <text
+         class="st21 st22 st23"
+         transform="translate(1576,399.83)"
+         fill="red"
+         font-weight="bold"
+         id="text472">00:00</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,380.3)"
+         id="text474">23:59</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,360.3)"
+         id="text476">23:58</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,340.3)"
+         id="text478">23:57</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,320.3)"
+         id="text480">23:56</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,300.3)"
+         id="text482">23:55</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,280.3)"
+         id="text484">23:54</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,260.3)"
+         id="text486">23:53</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,240.3)"
+         id="text488">23:52</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,220.3)"
+         id="text490">23:51</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,200.3)"
+         id="text492">23:50</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,180.3)"
+         id="text494">23:49</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,160.3)"
+         id="text496">23:48</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,140.3)"
+         id="text498">23:47</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,120.3)"
+         id="text500">23:46</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,100.3)"
+         id="text502">23:45</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,80.3)"
+         id="text504">23:44</text>
+      <text
+         class="st24 st23"
+         transform="translate(1576,60.3)"
+         id="text506">23:43</text>
+    </g>
+    <g
+       id="Minutes_remaining">
+      <text
+         class="st21 st22 st23"
+         transform="translate(49.99,399.83)"
+         fill="red"
+         font-weight="bold"
+         id="text509">0</text>
+      <text
+         class="st24 st23"
+         transform="translate(49.99,380.3)"
+         id="text511">1</text>
+      <text
+         class="st24 st23"
+         transform="translate(49.99,360.3)"
+         id="text513">2</text>
+      <text
+         class="st24 st23"
+         transform="translate(49.99,340.3)"
+         id="text515">3</text>
+      <text
+         class="st24 st23"
+         transform="translate(49.99,320.3)"
+         id="text517">4</text>
+      <text
+         class="st24 st23"
+         transform="translate(49.99,300.3)"
+         id="text519">5</text>
+      <text
+         class="st24 st23"
+         transform="translate(49.99,280.3)"
+         id="text521">6</text>
+      <text
+         class="st24 st23"
+         transform="translate(49.99,260.3)"
+         id="text523">7</text>
+      <text
+         class="st24 st23"
+         transform="translate(49.99,240.3)"
+         id="text525">8</text>
+      <text
+         class="st24 st23"
+         transform="translate(49.99,220.3)"
+         id="text527">9</text>
+      <text
+         class="st24 st23"
+         transform="translate(39.98,200.3)"
+         id="text529">10</text>
+      <text
+         class="st24 st23"
+         transform="translate(39.98,180.3)"
+         id="text531">11</text>
+      <text
+         class="st24 st23"
+         transform="translate(39.98,160.3)"
+         id="text533">12</text>
+      <text
+         class="st24 st23"
+         transform="translate(39.98,140.3)"
+         id="text535">13</text>
+      <text
+         class="st24 st23"
+         transform="translate(39.98,120.3)"
+         id="text537">14</text>
+      <text
+         class="st24 st23"
+         transform="translate(39.98,100.3)"
+         id="text539">15</text>
+      <text
+         class="st24 st23"
+         transform="translate(39.98,80.3)"
+         id="text541">16</text>
+      <text
+         class="st24 st23"
+         transform="translate(39.98,60.3)"
+         id="text543">17</text>
+    </g>
+  </g>
+  <g
+     id="g566"
+     transform="translate(-10,-8.009375)">
+    <g
+       id="g564">
+      <g
+         id="Text"
+         class="st24 st23"
+         font-size="18">
+        <text
+           transform="translate(1528,440.8)"
+           id="text547">2020</text>
+        <text
+           transform="translate(1328,440.8)"
+           id="text549">2010</text>
+        <text
+           transform="translate(1128,440.8)"
+           id="text551">2000</text>
+        <text
+           transform="translate(927.98,440.8)"
+           id="text553">1990</text>
+        <text
+           transform="translate(727.98,440.8)"
+           id="text555">1980</text>
+        <text
+           transform="translate(527.98,440.8)"
+           id="text557">1970</text>
+        <text
+           transform="translate(327.98,440.8)"
+           id="text559">1960</text>
+        <text
+           transform="translate(127.98,440.8)"
+           id="text561">1950</text>
+      </g>
+    </g>
+  </g>
+  <g
+     id="g618"
+     class="st24 st28"
+     font-size="21"
+     transform="translate(-10,-8.009375)">
+    <text
+       id="text568"
+       transform="translate(1485.3,161.6)">2020</text>
+    <text
+       id="text570"
+       transform="translate(1445.3,201.6)">2018</text>
+    <text
+       id="text572"
+       transform="translate(1425.3,241.6)">2017</text>
+    <text
+       transform="translate(1407.3,362.02)"
+       id="text574">2015</text>
+    <text
+       transform="translate(1382,322.02)"
+       id="text576">2012</text>
+    <text
+       transform="translate(1342,261.18)"
+       id="text578">2010</text>
+    <text
+       transform="translate(1282,322.02)"
+       id="text580">2007</text>
+    <text
+       transform="translate(1182,282.02)"
+       id="text582">2002</text>
+    <text
+       transform="translate(1102,242.02)"
+       id="text584">1998</text>
+    <text
+       transform="translate(1042,142.02)"
+       id="text586">1995</text>
+    <text
+       transform="translate(978,82.02)"
+       id="text588">1991</text>
+    <text
+       transform="translate(958,222.02)"
+       id="text590">1990</text>
+    <text
+       transform="translate(918,302.02)"
+       id="text592">1988</text>
+    <text
+       transform="translate(822,362.02)"
+       id="text594">1984</text>
+    <text
+       transform="translate(778,301.18)"
+       id="text596">1981</text>
+    <text
+       transform="translate(758,241.18)"
+       id="text598">1980</text>
+    <text
+       transform="translate(622,242.02)"
+       id="text600">1974</text>
+    <text
+       transform="translate(582,141.18)"
+       id="text602">1972</text>
+    <text
+       transform="translate(522,181.18)"
+       id="text604">1969</text>
+    <text
+       transform="translate(502,282.02)"
+       id="text606">1968</text>
+    <text
+       transform="translate(402,141.18)"
+       id="text608">1963</text>
+    <text
+       transform="translate(342,241.18)"
+       id="text610">1960</text>
+    <text
+       transform="translate(202,382.02)"
+       id="text612">1953</text>
+    <text
+       transform="translate(122,362.02)"
+       id="text614">1949</text>
+    <text
+       transform="translate(82,241.18)"
+       id="text616">1947</text>
+  </g>
+  <g
+     id="X-axis-4"
+     transform="translate(190,-8.009375)">
+    <g
+       id="Years-1"
+       fill="none"
+       stroke="#000000"
+       stroke-linecap="round"
+       stroke-width="4">
+      <g
+         id="_x32_010s-1"
+         class="st25">
+        <path
+           id="_x34__7_-7"
+           d="M 1428,410 V 398" />
+        <path
+           id="_x33__7_-8"
+           d="M 1408,410 V 398" />
+        <path
+           id="_x32__7_-2"
+           d="M 1388,410 V 398" />
+        <path
+           id="_x31__7_-4"
+           d="M 1368,410 V 398" />
+      </g>
+      <g
+         id="_x32_000s-7"
+         class="st25" />
+      <g
+         id="_x31_990s-2"
+         class="st25" />
+      <g
+         id="_x31_980s-2"
+         class="st25" />
+      <g
+         id="_x31_970s-9"
+         class="st25" />
+      <g
+         id="_x31_960s-4"
+         class="st25" />
+      <g
+         id="_x31_950s-6"
+         class="st25" />
+      <g
+         id="_x31_940s-3"
+         class="st25" />
+    </g>
+    <g
+       id="Decades-0">
+      <g
+         id="Markers-2"
+         class="st25"
+         fill="none"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-width="4" />
+    </g>
+  </g>
+  <path
+     id="_x32_020_1_-4"
+     class="st29"
+     d="m 1592.2089,350.71663 h 12 v 12 h -12 z"
+     style="fill:#ff6666;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+  <path
+     id="Line_1_-0"
+     d="m 1589.6834,125.91002 h 8 l 0.2795,225.11591"
+     fill="none"
+     stroke="#000000"
+     stroke-width="2"
+     sodipodi:nodetypes="ccc" />
+  <text
+     id="text568-3"
+     x="1537.4666"
+     y="134.92937"><tspan
+       style="font-size:21.3333px"
+       id="tspan1583">2023</tspan></text>
+</svg>
