@@ -2,13 +2,36 @@
 title: All the slots in YubiKey Series 5
 date: 2025-01-20T21:23:11-04:00
 draft: false
-tags: []
-categories: []
-author:
-  name: "Ali Sajid Imami"
-  link: "/about_me/"
-  avatar: "/images/aliimami.png"
-  email: "<hello@aliimami.com>"
+summary: "Take full control of your personal brand and privacy by migrating away from the big tech platforms!"
+tags: ["Yubikey", "Cryptography", "Passkeys"]
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: "Photo by [Andy Kennedy](https://unsplash.com/@packetdiscards) on [Unsplash](https://unsplash.com/photos/a-wooden-usb-stick-sitting-on-top-of-a-wooden-table-CpbI_SbiKqs)"
+
+      
+cover:
+  image: "https://images.unsplash.com/photo-1691318531721-5603e3c3a8a9?q=80&w=2408&auto=format"
+  position:
+    x: 0
+    y: 0
+  overlay:
+    enabled: false
+    type: "gradient"
+    opacity: 0.4
+    gradient: "bottom"
+  fade:
+    enabled: true
+    height: "180px"
+  icon:
+    name: ""
+
+authors:
+  - me
+
+content_meta:
+  trending: true
 ---
 
 ## Introduction
