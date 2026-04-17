@@ -8,7 +8,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: I enjoy creating software that makes life easier for me, the bioinformatics research community or everyone. Here is a list of the projects I have worked on over the years.
       filters:
         folders:
           - projects
