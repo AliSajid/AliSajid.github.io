@@ -1,0 +1,59 @@
+.gist-data {
+  max-height: calc(1.5em * 12); /* ~12 lines */
+  overflow: auto;
+}
+
+.github-data::after {
+  content: "...";
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: #888;
+}
+
+/* Centered closing quote block — only affects your shortcode */
+blockquote.center-quote {
+  position: relative;
+  max-width: 650px;
+  margin: 5rem auto 3rem auto;
+  padding: 2.5rem 3rem;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.7;
+  border: none !important;          /* remove Hugo/Browser default */
+  padding-left: 3rem !important;    /* override theme defaults */
+}
+
+/* Use proper typographic quotes */
+blockquote.center-quote {
+  quotes: "“" "”";
+}
+
+/* Opening quote (top-left) */
+blockquote.center-quote::before {
+  content: open-quote;
+  position: absolute;
+  top: -0.5rem;
+  left: 0.5rem;
+  font-size: 4rem;
+  line-height: 1;
+  color: currentColor;
+  opacity: 0.15;
+}
+
+/* Closing quote (bottom-right) */
+blockquote.center-quote::after {
+  content: close-quote;
+  position: absolute;
+  bottom: -0.5rem;
+  right: 0.5rem;
+  font-size: 4rem;
+  line-height: 1;
+  color: currentColor;
+  opacity: 0.15;
+}
+
+blockquote.center-quote {
+  border-top: 1px solid var(--color-border, rgba(255,255,255,0.1));
+  border-bottom: 1px solid var(--color-border, rgba(255,255,255,0.1));
+}
