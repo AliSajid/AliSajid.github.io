@@ -12,20 +12,18 @@ image:
 
       
 cover:
-  image: "https://images.unsplash.com/photo-1691318531721-5603e3c3a8a9?q=80&w=2408&auto=format"
+  image: "featured.jpg"  # or a modified version
   position:
-    x: 0
-    y: 0
+    x: 0.4
+    y: 0.5
   overlay:
-    enabled: false
+    enabled: true
     type: "gradient"
-    opacity: 0.4
+    opacity: 0.5
     gradient: "bottom"
   fade:
     enabled: true
     height: "180px"
-  icon:
-    name: ""
 
 authors:
   - me
@@ -79,7 +77,11 @@ for n in $(seq 1 255); do
 done
 ```
 
-The output from this is available in the [`ykslots`](/ykslots.txt) file.
+The output from this is available in the [ykslots](https://gist.github.com/AliSajid/dd8b641e25b359a1fca2967076300b0d) gist file.
+
+{{< gist "AliSajid" "dd8b641e25b359a1fca2967076300b0d" >}}
+
+
 
 ### Result
 
