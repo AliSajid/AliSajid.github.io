@@ -57,3 +57,17 @@ blockquote.center-quote {
   border-top: 1px solid var(--color-border, rgba(255,255,255,0.1));
   border-bottom: 1px solid var(--color-border, rgba(255,255,255,0.1));
 }
+
+/* LIGHT MODE */
+.site-logo-svg {
+  --logo-bg: #eee8d5;
+  --logo-fg: #0f2a1f;
+  --logo-stroke-width: 30;
+}
+
+/* DARK MODE (HugoBlox toggle) */
+.dark .site-logo-svg {
+  --logo-bg: #073642;
+  --logo-fg: #f4f7f5;
+  --logo-stroke-width: 30;
+}
