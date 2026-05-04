@@ -4,11 +4,34 @@ date: 2025-03-25T21:21:59-04:00
 draft: false
 tags: ["Puzzmo", "New York Times", "Spelling Bee", "Memoku", "Weather Memoku", "Puzzmo Crossword", "Flipart"]
 categories: ["Roundup", "Puzzle"]
-author:
-  name: "Ali Sajid Imami"
-  link: "/about_me/"
-  avatar: "/images/aliimami.png"
-  email: "<hello@aliimami.com>"
+summary: ""
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  filename: "puzzmo-capsule-logo-light.png"
+  caption: "Caption"
+
+
+      
+cover:
+  image: ""
+  position:
+    x: 50
+    y: 40
+  overlay:
+    enabled: true
+    type: "gradient"
+    opacity: 0.4
+    gradient: "bottom"
+  fade:
+    enabled: true
+    height: "80px"
+  icon:
+    name: ""
+
+authors:
+  - me
 ---
 
 
