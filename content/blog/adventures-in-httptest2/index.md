@@ -1,0 +1,63 @@
+---
+title: Adventures in `httptest2`
+subtitle: Testing API requests in R packages
+date: 2025-02-02T22:41:38.000Z
+draft: true
+tags: []
+categories: []
+format: hugo-md
+knitr:
+  opts_chunk:
+    fig.path: images/
+author:
+  name: Ali Sajid Imami
+  link: /about_me/
+  avatar: /images/aliimami.png
+  email: <hello@aliimami.com>
+---
+
+
+# Introduction
+
+This blog post is part rant, part catharsis, and part education. The emotions
+are due to the circumstances in which I discovered the problem, while the
+eduction part comes from my desire to not have other people go through
+what I did.
+
+I maintain an R package called [`drugfindR`](https://www.github.com/CogDisResLab/drugfindR).
+This package is important to me for several reasons, including but not limited to:
+
+-   It was the first **proper** R package I ever wrote
+-   It came out of my experiences (and publications) during COVID-19 lockdowns
+-   It has been instrumental in [our lab's](https://cdrl-ut.org) drug repurposing
+    work
+-   It is part of my Dissertation
+
+Part of the package's functionality relies on an external REST API and what
+better way to interact with external APIs in R than using the [httr2](httr2.r-lib.org/)
+package. Recently I have been working on modernizing the internal functionality
+and refactoring giant functions into smaller, more focused functions. As I am
+creating more functions, I am also revamping my test suite.
+
+Previously, I had relied on the [vcr](https://docs.ropensci.org/vcr/index.html)
+package to record API interactions and then use them in subsequent test runs.
+This was combined with `httr2`'s convenience functions and a harness that
+I had built precisely for this purpose. This was sufficient for my purposes,
+but it was still messy. I did not like that kind of mess in my codebase.
+
+One day, as I was going through `httr2`'s documentation, looking for
+yet another way to simplify my mock responses and requests, I came across this
+little gem in the documentation for the \[`with_mocked_responses()`\] function:
+
+> Instead use package that uses these functions under the hood, like httptest2 or vcr.
+
+Thus, began my introduction to the \[`httptest2`\] package and the yak-shavingest
+upgrade process for my tests.
+
+# Introduction to `httptest2`
+
+<img src="images/unnamed-chunk-1-1.png" width="768" />
+
+{{< center-quote >}}
+So long, and thanks for all the fish.
+{{< /center-quote >}}
