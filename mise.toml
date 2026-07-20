@@ -1,11 +1,23 @@
 [tools]
 go = "1.19"
-hugo-extended = "0.160.1"
+hk = "1.51.0"
+hugo-extended = "v0.159.2"
 node = "24.14.1"
+"npm:hugoblox" = "0.12.8"
 pnpm = "11.15.0"
+"pipx:texthooks" = "0.7.1"
+"pipx:reuse" = "6.2.0"
+gitleaks = "8.30.1"
+cocogitto = "7.0.0"
+taplo = "0.10.0"
+vale = "3.15.1"
+yamllint = "1.38.0"
 
-[tasks]
-start = "./scripts/manage_hugo.sh start"
-restart = "./scripts/manage_hugo.sh restart"
-stop = "./scripts/manage_hugo.sh stop"
-status = "./scripts/manage_hugo.sh status"
+
+[tasks.dev]
+description = "Run the hugo development server"
+run = "hugo server --buildDrafts --buildFuture --cleanDestinationDir --printMemoryUsage --renderStaticToDisk --templateMetrics --enableGitInfo --disableFastRender"
+
+[tasks.build]
+description = "Build the production website"
+run = "hugo --minify --gc --enableGitInfo"
