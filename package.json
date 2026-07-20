@@ -38,21 +38,21 @@
         "lint": "prettier --check ."
     },
     "dependencies": {
-        "@tailwindcss/cli": "^4.1.12",
-        "@tailwindcss/typography": "^0.5.10",
-        "pagefind": "^1.4.0",
-        "preact": "^10.27.2",
-        "tailwindcss": "^4.1.12"
+        "@tailwindcss/cli": "^4.3.3",
+        "@tailwindcss/typography": "^0.5.20",
+        "pagefind": "^1.5.2",
+        "preact": "^10.29.7",
+        "tailwindcss": "^4.3.3"
     },
     "devDependencies": {
-        "prettier": "^3.3.3"
+        "prettier": "^3.9.5"
     },
     "engines": {
-        "node": ">=22",
-        "pnpm": ">=10"
+        "node": ">=24",
+        "pnpm": ">=11"
     },
     "config": {
-        "hugoVersion": ">=0.160.0",
+        "hugoVersion": ">=0.159.2",
         "environment": "development"
     },
     "browserslist": [
