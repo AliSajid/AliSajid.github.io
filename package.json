@@ -2,7 +2,7 @@
     "name": "ali-imami-academic-site",
     "version": "1.0.0",
     "private": true,
-    "packageManager": "pnpm@10.14.0",
+    "packageManager": "pnpm@11.15.0",
     "description": "Personal academic website and CV for Ali Imami, built with HugoBlox, Tailwind CSS v4, and Pagefind search.",
     "keywords": [
         "hugo",
