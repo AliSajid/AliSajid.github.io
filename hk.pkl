@@ -1,0 +1,342 @@
+amends "package://github.com/jdx/hk/releases/download/v1.51.0/hk@1.51.0#/Config.pkl"
+
+import "package://github.com/jdx/hk/releases/download/v1.51.0/hk@1.51.0#/Builtins.pkl"
+
+// Quality gates for a HugoBlox Academic CV / personal showcase site.
+//
+// Hook policy:
+// - pre-commit: fast, staged-file checks and safe auto-fixes.
+// - commit-msg: Conventional Commit validation only.
+// - pre-push: repeat changed-file checks, then validate the complete site.
+// - check/fix: convenient manual equivalents for CI and local maintenance.
+
+// Help hk choose the correct comparison base for diagnostics and suggestions.
+default_branch = "main"
+
+// Report all independent failures in one run instead of stopping at the first.
+fail_fast = false
+
+// Generated output and third-party code should not be linted as project source.
+// Large uploaded assets remain included so accidental oversized files are caught.
+exclude =
+  List(
+    ".git",
+    ".hk",
+    "node_modules",
+    "public",
+    "resources/_gen",
+    "_vendor",
+    "vendor",
+    ".hugo_build.lock",
+    ".lycheecache",
+  )
+
+// -----------------------------------------------------------------------------
+// Repository hygiene
+// -----------------------------------------------------------------------------
+
+local repository_checks = new Mapping<String, Step> {
+  // Academic sites legitimately contain a CV PDF and optimized images, so use a
+  // 10 MiB ceiling rather than hk's intentionally conservative 500 KiB default.
+  ["check-added-large-files"] = (Builtins.check_added_large_files) {
+    check = "hk util check-added-large-files --maxkb 10240 {{files}}"
+  }
+
+  // Avoid paths that work on one filesystem but collide on another.
+  ["check-case-conflict"] = Builtins.check_case_conflict
+
+  ["check-merge-conflict"] = (Builtins.check_merge_conflict) {
+    types = List("text")
+  }
+
+  ["check-symlinks"] = Builtins.check_symlinks
+  ["check-executables-have-shebangs"] = Builtins.check_executables_have_shebangs
+
+  // Fast first-line defense; Gitleaks performs the broader secret scan below.
+  ["detect-private-key"] = (Builtins.detect_private_key) {
+    types = List("text")
+  }
+
+  ["end-of-file-fixer"] = (Builtins.newlines) {
+    types = List("text")
+  }
+
+  ["mixed-line-ending"] = (Builtins.mixed_line_ending) {
+    types = List("text")
+  }
+
+  ["trailing-whitespace"] = (Builtins.trailing_whitespace) {
+    types = List("text")
+
+    // Markdown can intentionally use two trailing spaces for a hard line break.
+    // Let markdownlint's MD009 policy handle Markdown instead.
+    exclude = List("**/*.md", "**/*.markdown")
+  }
+}
+
+// Gitleaks' official pre-commit mode scans the staged snapshot, not unrelated
+// unstaged work. Keep it separate because it is meaningful only during commit.
+local staged_secret_checks = new Mapping<String, Step> {
+  ["gitleaks-staged"] {
+    exclusive = true
+    check = "gitleaks git --pre-commit --staged --redact --verbose --no-banner"
+    output_summary = "combined"
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Structured data, source files, and project configuration
+// -----------------------------------------------------------------------------
+
+local syntax_and_format_checks = new Mapping<String, Step> {
+  // Validate JSON without reordering object keys. Builtins.jq intentionally
+  // formats and sorts keys when fixing, which is unnecessary for this site.
+  ["json-syntax"] {
+    glob = "**/*.json"
+    exclude = List(".vscode/*.json") // VS Code settings commonly use JSONC.
+    check = new Command {
+      argv = List("jq", "empty", "{{files}}")
+    }
+  }
+
+  ["toml-syntax"] = Builtins.taplo
+  ["toml-format"] = Builtins.taplo_format
+
+  ["yaml-lint"] = (Builtins.yamllint) {
+    // Preserve the repository's explicit policy, including GitHub Actions rules.
+    check = "yamllint --strict --config-file .yamllint.yml {{files}}"
+    exclude = List("pnpm-lock.yaml", "yarn.lock")
+  }
+
+  // SVG is XML and is common in branding, diagrams, and custom icons.
+  ["xml-syntax"] = (Builtins.xmllint) {
+    glob = List("**/*.xml", "**/*.svg")
+  }
+
+  ["shellcheck"] = Builtins.shellcheck
+
+  // Format Pkl files, then ensure the hk configuration evaluates correctly.
+  ["pkl-format"] = Builtins.pkl_format
+  ["hk-validate"] {
+    glob = List("hk.pkl", ".config/hk.pkl")
+    depends = "pkl-format"
+    check = "hk validate"
+  }
+
+  // HugoBlox normally uses Hugo Modules; verify the cached dependency contents
+  // whenever the module manifest or checksum file changes.
+  ["hugo-module-verify"] {
+    glob = List("go.mod", "go.sum")
+    check = "hugo mod verify"
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Academic prose and Markdown content
+// -----------------------------------------------------------------------------
+
+local content_checks = new Mapping<String, Step> {
+  ["markdownlint"] = Builtins.markdown_lint
+
+  ["codespell"] {
+    glob =
+      List(
+        "README.md",
+        "content/**/*.md",
+        "content/**/*.markdown",
+        "**/*.rst",
+        "**/*.txt",
+        "config/**/*.yaml",
+        "config/**/*.yml",
+        "config/**/*.toml",
+        "data/**/*.yaml",
+        "data/**/*.yml",
+      )
+
+    // Imported publication metadata should remain verbatim. Put recurring names,
+    // biomedical terms, and abbreviations in the project's codespell dictionary.
+    exclude = List("content/publication/**")
+
+    check = new Command {
+      argv = List("codespell", "{{files}}")
+    }
+  }
+
+  ["vale"] {
+    glob =
+      List(
+        "README.md",
+        "content/**/*.md",
+        "content/**/*.markdown",
+        "**/*.rst",
+        "**/*.txt",
+      )
+
+    // Publication titles and abstracts are quoted scholarly records, not copy to
+    // rewrite according to the site's editorial style guide.
+    exclude = List("content/publication/**")
+
+    // Run `vale sync` explicitly after changing .vale.ini or package versions;
+    // hooks should remain deterministic and should not fetch dependencies.
+    check = new Command {
+      argv = List("vale", "{{files}}")
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// GitHub Actions quality and supply-chain checks
+// -----------------------------------------------------------------------------
+
+local workflow_checks = new Mapping<String, Step> {
+  ["actionlint"] = Builtins.actionlint
+
+  // Deliberately check-only: security auto-fixes deserve review rather than being
+  // silently staged as part of an unrelated content commit.
+  ["zizmor"] {
+    glob =
+      List(
+        ".github/workflows/*.yml",
+        ".github/workflows/*.yaml",
+        ".github/dependabot.yml",
+        "**/action.yml",
+        "**/action.yaml",
+      )
+    check = "zizmor --no-progress {{files}}"
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Whole-repository and rendered-site checks
+// -----------------------------------------------------------------------------
+
+local pre_push_checks = new Mapping<String, Step> {
+  // Scan commits that exist locally but are not yet reachable from any remote.
+  // This avoids rescanning accepted history while still protecting every push.
+  ["gitleaks-unpushed"] {
+    check = "gitleaks git --redact --verbose --no-banner --log-opts='--all --not --remotes'"
+    output_summary = "combined"
+  }
+
+  // Draft, future, and expired pages are easy to leave broken because a normal
+  // production build omits them. Validate them before they become publishable.
+  ["hugo-all-content"] {
+    exclusive = true
+    output_summary = "combined"
+    check =
+      """
+      hugo \
+        --buildDrafts \
+        --buildExpired \
+        --buildFuture \
+        --environment production \
+        --noBuildLock \
+        --panicOnWarning \
+        --printPathWarnings \
+        --renderToMemory
+      """
+  }
+
+  // Build exactly as a production deployment would, but into a disposable
+  // directory. Then validate local links and anchor fragments in rendered HTML.
+  // External network links are intentionally not a push blocker.
+  ["hugo-production-and-links"] {
+    exclusive = true
+    output_summary = "combined"
+    check =
+      """
+      build_dir="$(mktemp -d)"
+      trap 'rm -rf "$build_dir"' EXIT
+
+      hugo \
+        --environment production \
+        --minify \
+        --noBuildLock \
+        --panicOnWarning \
+        --printPathWarnings \
+        --destination "$build_dir"
+
+      lychee \
+        --no-progress \
+        --offline \
+        --include-fragments=anchor-only \
+        --root-dir "$build_dir" \
+        --index-files index.html \
+        "$build_dir/**/*.html"
+      """
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Commit-message policy
+// -----------------------------------------------------------------------------
+
+local commit_message_checks = new Mapping<String, Step> {
+  ["conventional-commit"] = Builtins.check_conventional_commit
+}
+
+// -----------------------------------------------------------------------------
+// Hook composition
+// -----------------------------------------------------------------------------
+
+hooks {
+  ["pre-commit"] {
+    // Apply safe formatting fixes to the staged snapshot and restage the result.
+    fix = true
+    stash = "git"
+    stage = true
+
+    steps {
+      ...repository_checks
+      ...syntax_and_format_checks
+      ...content_checks
+      ...workflow_checks
+      ...staged_secret_checks
+    }
+  }
+
+  ["commit-msg"] {
+    // Commit-message hooks receive a message file, not a normal set of project
+    // files. Running the complete linter suite here was both redundant and wrong.
+    steps {
+      ...commit_message_checks
+    }
+  }
+
+  ["pre-push"] {
+    // Re-run changed-file checks in check-only mode to catch commits made with
+    // `--no-verify`, then perform the slower repository and site-wide checks.
+    steps {
+      ...repository_checks
+      ...syntax_and_format_checks
+      ...content_checks
+      ...workflow_checks
+      ...pre_push_checks
+    }
+  }
+
+  ["check"] {
+    // Full local/CI quality gate.
+    steps {
+      ...repository_checks
+      ...syntax_and_format_checks
+      ...content_checks
+      ...workflow_checks
+      ...pre_push_checks
+    }
+  }
+
+  ["fix"] {
+    // Apply only deterministic file-level fixes; never mutate content as part of
+    // security scans or production builds.
+    fix = true
+    stash = "none"
+
+    steps {
+      ...repository_checks
+      ...syntax_and_format_checks
+      ...content_checks
+      ...workflow_checks
+    }
+  }
+}
