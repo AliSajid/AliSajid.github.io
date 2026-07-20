@@ -1,36 +1,173 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "assignees": ["AliSajid"],
-  "baseBranchPatterns": ["main"],
-  "extends": [
-    "config:best-practices",
-    "group:githubArtifactActions",
-    ":rebaseStalePrs"
-  ],
-  "gitAuthor": "Imamiland CI Bot <152510784+imamiland-bot@users.noreply.github.com>",
-  "labels": ["dependencies", "renovate"],
-  "packageRules": [
-    {
-      "automerge": true,
-      "groupName": "Repository Maintenance",
-      "groupSlug": "repository-maintenance",
-      "matchManagers": ["pre-commit", "github-actions"]
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:best-practices",
+        "helpers:pinGitHubActionDigestsToSemver",
+        ":pinAllExceptPeerDependencies",
+        "group:linters"
+    ],
+    "assignees": [
+        "AliSajid"
+    ],
+    "labels": [
+        "dependencies",
+        "renovate"
+    ],
+    "schedule": [
+        "* 0-4 * * *"
+    ],
+    "updateNotScheduled": false,
+    "prConcurrentLimit": 5,
+    "prHourlyLimit": 2,
+    "semanticCommits": "enabled",
+    "ignorePaths": [
+        ".hk/vendors/**",
+        "public/**",
+        "resources/_gen/**"
+    ],
+    "vulnerabilityAlerts": {
+        "assignees": [
+            "AliSajid"
+        ],
+        "labels": [
+            "security",
+            "dependencies",
+            "renovate"
+        ]
     },
-    {
-      "enabled": false,
-      "matchFileNames": ["Dockerfile"],
-      "matchManagers": ["dockerfile"]
-    }
-  ],
-  "platformCommit": "enabled",
-  "prConcurrentLimit": 5,
-  "pre-commit": {
-    "enabled": true
-  },
-  "schedule": [
-    "after 10pm every weekday",
-    "every weekend",
-    "before 5am every weekday"
-  ],
-  "semanticCommits": "enabled"
+    "customManagers": [
+        {
+            "customType": "regex",
+            "description": "Update the hk version embedded in Pkl package imports",
+            "managerFilePatterns": [
+                "/(^|/)hk\\.pkl$/"
+            ],
+            "matchStrings": [
+                "package://github\\.com/jdx/hk/releases/download/v(?<currentValue>\\d+\\.\\d+\\.\\d+)/hk@\\d+\\.\\d+\\.\\d+#/"
+            ],
+            "depNameTemplate": "jdx/hk",
+            "datasourceTemplate": "github-releases",
+            "versioningTemplate": "semver",
+            "extractVersionTemplate": "^v(?<version>\\d+\\.\\d+\\.\\d+)$",
+            "autoReplaceStringTemplate": "package://github.com/jdx/hk/releases/download/v{{{newValue}}}/hk@{{{newValue}}}#/"
+        }
+    ],
+    "packageRules": [
+        {
+            "description": "Require Dependency Dashboard approval before creating major-update PRs",
+            "matchUpdateTypes": [
+                "major"
+            ],
+            "dependencyDashboardApproval": true
+        },
+        {
+            "description": "Require approval for initial dependency and digest pinning",
+            "matchUpdateTypes": [
+                "pin",
+                "pinDigest"
+            ],
+            "groupName": "dependency pinning",
+            "dependencyDashboardApproval": true
+        },
+        {
+            "description": "Automerge patch and same-version digest updates for versioned GitHub Actions",
+            "matchManagers": [
+                "github-actions"
+            ],
+            "matchDepTypes": [
+                "action"
+            ],
+            "matchUpdateTypes": [
+                "patch",
+                "digest"
+            ],
+            "automerge": true,
+            "automergeType": "pr",
+            "matchCurrentVersion": [
+                "!/^v?0\\./"
+            ]
+        },
+        {
+            "description": "Require approval for pre-1.0 GitHub Action updates",
+            "matchManagers": [
+                "github-actions"
+            ],
+            "matchDepTypes": [
+                "action"
+            ],
+            "matchCurrentVersion": [
+                "/^v?0\\./"
+            ],
+            "dependencyDashboardApproval": true,
+            "automerge": false
+        },
+        {
+            "description": "Require approval for minor GitHub Action updates",
+            "matchManagers": [
+                "github-actions"
+            ],
+            "matchDepTypes": [
+                "action"
+            ],
+            "matchUpdateTypes": [
+                "minor"
+            ],
+            "dependencyDashboardApproval": true
+        },
+        {
+            "description": "Group non-major Hugo module updates into one tested site-build PR",
+            "matchManagers": [
+                "gomod"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "groupName": "Hugo modules"
+        },
+        {
+            "description": "Group non-major runtime dependencies used to build the website",
+            "matchManagers": [
+                "npm"
+            ],
+            "matchDepTypes": [
+                "dependencies",
+                "optionalDependencies"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "groupName": "website dependencies"
+        },
+        {
+            "description": "Require approval for non-patch development-tool upgrades managed by mise",
+            "matchManagers": [
+                "mise"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "major"
+            ],
+            "dependencyDashboardApproval": true
+        },
+        {
+            "description": "Keep all hk Pkl package imports on the same release",
+            "matchManagers": [
+                "custom.regex"
+            ],
+            "matchPackageNames": [
+                "jdx/hk"
+            ],
+            "groupName": "hk"
+        },
+        {
+            "description": "Automerge scheduled lock-file maintenance after required checks pass",
+            "matchUpdateTypes": [
+                "lockFileMaintenance"
+            ],
+            "automerge": true,
+            "automergeType": "pr"
+        }
+    ]
 }

@@ -99,6 +99,18 @@ local syntax_and_format_checks = new Mapping<String, Step> {
     }
   }
 
+  // Validate Renovate's semantics in addition to JSON syntax. Do not pass the
+  // filename explicitly: the validator then discovers renovate.json as a
+  // repository configuration rather than interpreting it as global config.
+  // Pin Renovate in mise or the project's Node development dependencies so
+  // hooks never fetch an unreviewed tool release at execution time.
+  ["renovate-config"] {
+    glob = "renovate.json"
+    depends = "json-syntax"
+    check = "renovate-config-validator --strict"
+    output_summary = "combined"
+  }
+
   ["toml-syntax"] = Builtins.taplo
   ["toml-format"] = Builtins.taplo_format
 
