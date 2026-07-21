@@ -150,7 +150,7 @@ local syntax_and_format_checks = new Mapping<String, Step> {
 local content_checks = new Mapping<String, Step> {
   ["markdownlint"] = Builtins.markdown_lint
 
-  ["codespell"] {
+  ["cspell"] {
     glob =
       List(
         "README.md",
@@ -170,7 +170,7 @@ local content_checks = new Mapping<String, Step> {
     exclude = List("content/publication/**")
 
     check = new Command {
-      argv = List("codespell", "{{files}}")
+      argv = List("cspell", "{{files}}")
     }
   }
 

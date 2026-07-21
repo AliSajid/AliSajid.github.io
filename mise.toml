@@ -17,6 +17,7 @@ shellcheck = "0.11.0"
 zizmor = "1.27.0"
 lychee = "0.24.2"
 "npm:renovate" = "43.271.3"
+cspell = "10.0.1"
 
 
 [tasks.dev]

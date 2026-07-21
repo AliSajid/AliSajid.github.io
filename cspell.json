@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+    "version": "0.2",
+    "dictionaryDefinitions": [
+        {
+            "name": "project-words",
+            "path": "./styles/config/vocabularies/CSpell/accept.txt",
+            "addWords": true
+        }
+    ],
+    "dictionaries": [
+        "project-words"
+    ],
+    "ignorePaths": [
+        "node_modules",
+        "/public",
+        "/styles/config/vocabularies/Academic/accept.txt",
+        "/styles/config/vocabularies/CSpell/accept.txt",
+        "/content/publications"
+    ]
+}
