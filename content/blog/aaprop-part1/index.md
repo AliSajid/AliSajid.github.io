@@ -13,7 +13,7 @@ image:
 
       
 cover:
-  image: "https://images.unsplash.com/photo-1707135719544-fd75c0e66151?q=80&=2050"
+  image: "https://images.unsplash.com/photo-1707135719544-fd75c0e66151?q=80&w=2050"
   position:
     x: 50
     y: 40
