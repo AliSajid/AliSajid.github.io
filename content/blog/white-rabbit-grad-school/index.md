@@ -19,7 +19,7 @@ When I was about 6, my dad bought me a Priory Classics edition of _Alice in Wond
 In the book, the first character that you encounter from Wonderland is a little white Rabbit. This rabbit is dressed in a waistcoat and holding a pocket watch. But the strangest thing is not the rabbit being dressed that way, or even having a watch. The strangest thing is how the rabbit is in a hurry. This image has never ceased making me laugh. I mean, how can a rabbit be in a hurry? It's a rabbit! But this white rabbit, or White Rabbit, as he is known through the book, is evidently in a hurry, continuously speaking about how late he is.
 
 In the original edition, and the one I have, the White Rabbit looked like this.
-{{< figure src="/images/white_rabbit.jpg" title="White Rabbit Original Illustration" alt="Pencil Sketch of a rabbit in a waistcoat looking at a pocketwatch" width="60%" height="100%" >}}
+{{< figure src="white_rabbit.jpg" title="White Rabbit Original Illustration" alt="Pencil Sketch of a rabbit in a waistcoat looking at a pocketwatch" width="60%" height="100%" >}}
 
 ## The Grad School
 
@@ -28,7 +28,7 @@ I am very fond of saying that I am chronologically a 2nd year PhD student but fu
 - I could shave off 30 credits from the 90 credit requirement for the PhD
 - I had already completed the core courses that were required for the PhD as those were shared with the Masters program
 
-The net result of this was that I had an incredibly low course load and was able to dedicate myself fully to research. This meant that I was a part of quite a few collaborations, all needing different things done. At times like this, I do feel like that poor White Rabbit who is always running and always late.
+The net result of this was that I had an incredibly light course load and was able to dedicate myself fully to research. This meant that I was a part of quite a few collaborations, all needing different things done. At times like this, I do feel like that poor White Rabbit who is always running and always late.
 
 Before you go, here's a video of the White Rabbit from the 1951 Disney movie. I love the way he says "I'm late, I'm late, for a very important date. No time to say hello, goodbye, I'm late, I'm late, I'm late!"
 

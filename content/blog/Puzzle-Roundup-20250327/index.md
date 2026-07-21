@@ -121,9 +121,8 @@ _A_, _L_, _T_, _V_, with _R_ being the central letter.
 I had fun playing this, but I did feel out of depth as this was the first time
 I was playing it in earnest. I managed to get the Coveted _Queen Bee_ with all
 52 words found. However, I have to admit that it took me a while and I used hints for more than
-half of them. The graphic below summarized my results:
+half of them.
 
-![NYT Spelling Bee Results - March 25th, 2025](spelling-bee-queen-bee-2025-03-25.png)
 
 {{< center-quote >}}
 So long, and thanks for all the fish.
