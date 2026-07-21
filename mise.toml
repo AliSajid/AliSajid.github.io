@@ -1,5 +1,5 @@
 [tools]
-go = "1.19"
+go = "1.21.13"
 hk = "1.51.0"
 hugo-extended = "v0.159.2"
 node = "24.14.1"
