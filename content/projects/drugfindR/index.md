@@ -15,7 +15,7 @@ links:
 tags:
   - R
   - Bioconductor
-  - Trascriptomics
+  - Transcriptomics
   - iLINCS
   - LINCS
 featured: true
@@ -29,5 +29,5 @@ supports reproducible, fully scriptable workflows for identifying candidate
 drugs and functionally related gene perturbations, making it suitable for
 high-throughput computational biology pipelines.
 
-The package has been accepted into the [bioconductor](https://bioconductor.org)
+The package has been accepted into the [Bioconductor](https://bioconductor.org)
 repository and is a part of it from the 3.23 release.
