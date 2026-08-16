@@ -32,7 +32,7 @@ jobs:
       contents: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df # v2.18.0
+        uses: step-security/harden-runner@05e31511f85b41b11d1cf0ef85d0992719546e2c # v2.21.0
         with:
           disable-sudo: true
           egress-policy: block
@@ -45,15 +45,16 @@ jobs:
             objects.githubusercontent.com:443
 
       - name: Install mise-en-place
-        uses: jdx/mise-action@5228313ee0372e111a38da051671ca30fc5a96db # v3.6.3
+        uses: jdx/mise-action@3c2e0cf82a5b2e5249f0d3635a4d83d0ae861518 # v4.2.5
         with:
           experimental: true
           install: true
 
       - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           submodules: recursive
+          persist-credentials: false
 
       - name: Update Draft status of posts
         run: ./scripts/update_drafts.sh
@@ -80,8 +81,11 @@ jobs:
       - name: Configure Git
         if: env.CHANGES_TO_PUBLISH == 'true'
         run: |
-          git config --global user.name "${{ vars.GIT_AUTHOR_NAME }}"
-          git config --global user.email "${{ vars.GIT_AUTHOR_EMAIL }}"
+          git config --global user.name "${VARS_GIT_AUTHOR_NAME}"
+          git config --global user.email "${VARS_GIT_AUTHOR_EMAIL}"
+        env:
+          VARS_GIT_AUTHOR_NAME: ${{ vars.GIT_AUTHOR_NAME }}
+          VARS_GIT_AUTHOR_EMAIL: ${{ vars.GIT_AUTHOR_EMAIL }}
 
       - name: Commit changes
         if: env.CHANGES_TO_PUBLISH == 'true'
@@ -96,17 +100,19 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
 
       - name: Build with Hugo
         run: |
           hugo \
             --minify \
-            --baseURL ${{ steps.pages.outputs.base_url }} \
+            --baseURL ${STEPS_PAGES_OUTPUTS_BASE_URL} \
             --enableGitInfo
+        env:
+          STEPS_PAGES_OUTPUTS_BASE_URL: ${{ steps.pages.outputs.base_url }}
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: ./public
 
@@ -123,10 +129,10 @@ jobs:
       id-token: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df # v2.18.0
+        uses: step-security/harden-runner@05e31511f85b41b11d1cf0ef85d0992719546e2c # v2.21.0
         with:
           egress-policy: audit
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
