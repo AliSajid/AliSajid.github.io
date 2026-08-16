@@ -2,7 +2,7 @@
 go = "1.21.13"
 hk = "1.51.0"
 hugo-extended = "v0.159.2"
-node = "24.14.1"
+node = "24.16.0"
 "npm:hugoblox" = "0.12.8"
 pnpm = "11.15.0"
 "pipx:texthooks" = "0.7.1"
@@ -17,7 +17,9 @@ shellcheck = "0.11.0"
 zizmor = "1.27.0"
 lychee = "0.24.2"
 cspell = "10.0.1"
-"npm:renovate" = { version = "44.30.3", trust_policy_excludes = ["@yarnpkg/libzip@3.2.2"] }
+"npm:renovate" = { version = "44.30.3", trust_policy_excludes = [
+    "@yarnpkg/libzip@3.2.2",
+] }
 
 
 [tasks.dev]
