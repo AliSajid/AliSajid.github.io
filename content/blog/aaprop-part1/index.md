@@ -1,7 +1,7 @@
 ---
 title: "The AAProp Project: Part 1"
 subtitle: "Genesis"
-summary: "Take full control of your personal brand and privacy by migrating aay from the big tech platforms!"
+summary: "AAProp is a small Rust project born from a recurring problem in bioinformatics: repeatedly copying static amino acid data between projects. This post explores why Rust was chosen, the design of a lightweight read-only REST API for the twenty standard amino acids, and the decisions behind using Axum and Shuttle for a simple, automated, and essentially free deployment. It is also the first part of a three-part series covering implementation, CI, automation, and deployment."
 date: 2024-12-31T23:03:27-04:00
 draft: false
 tags: ["Rust", "AAprop", "Programming", "Project", "Bioinformatics"]
@@ -144,8 +144,8 @@ Now came the part about the actual implementation. For this, I decided to use th
 ## Conclusion
 
 <!-- Write the conclusion here -->
-So there we have the first part of my journey. In [the second part](/posts/aaprop-part2/) I will go over the actual implementation
-of the project and the things I learned. I will end this with the [third and final post](/posts/aaprop-part3/) which deals with CI, automation
+So there we have the first part of my journey. In [the second part](/blog/aaprop-part2/) I will go over the actual implementation
+of the project and the things I learned. I will end this with the [third and final post](/blog/aaprop-part3/) which deals with CI, automation
 and deployment.
 
 {{< center-quote >}}
