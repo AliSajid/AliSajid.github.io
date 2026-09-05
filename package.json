@@ -1,6 +1,63 @@
 {
-  "devDependencies": {
-    "prettier-plugin-go-template": "0.0.15"
-  },
-  "packageManager": "pnpm@10.26.2+sha512.0e308ff2005fc7410366f154f625f6631ab2b16b1d2e70238444dd6ae9d630a8482d92a451144debc492416896ed16f7b114a86ec68b8404b2443869e68ffda6"
+    "name": "ali-imami-academic-site",
+    "version": "1.0.0",
+    "private": true,
+    "packageManager": "pnpm@11.15.0",
+    "description": "Personal academic website and CV for Ali Imami, built with HugoBlox, Tailwind CSS v4, and Pagefind search.",
+    "keywords": [
+        "hugo",
+        "hugoblox",
+        "academic-cv",
+        "bioinformatics",
+        "portfolio",
+        "static-site",
+        "tailwindcss",
+        "pagefind"
+    ],
+    "homepage": "https://www.aliimami.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AliSajid/AliSajid.github.io"
+    },
+    "bugs": {
+        "url": "https://github.com/AliSajid/AliSajid.github.io/issues"
+    },
+    "author": {
+        "name": "Ali Imami",
+        "url": "https://www.aliimami.com"
+    },
+    "license": "MIT",
+    "scripts": {
+        "dev": "hugo server --disableFastRender --buildDrafts --buildFuture",
+        "build": "hugo --gc --minify && pnpm run pagefind",
+        "preview": "hugo server --minify",
+        "clean": "rm -rf public resources .hugo_build.lock",
+        "pagefind": "pagefind --site public --serve",
+        "analyze": "hugo --templateMetrics --templateMetricsHints",
+        "format": "prettier --write .",
+        "lint": "prettier --check ."
+    },
+    "dependencies": {
+        "@tailwindcss/cli": "^4.3.3",
+        "@tailwindcss/typography": "^0.5.20",
+        "pagefind": "^1.5.2",
+        "preact": "^10.29.7",
+        "tailwindcss": "^4.3.3"
+    },
+    "devDependencies": {
+        "prettier": "^3.9.5"
+    },
+    "engines": {
+        "node": ">=24",
+        "pnpm": ">=11"
+    },
+    "config": {
+        "hugoVersion": ">=0.159.2",
+        "environment": "development"
+    },
+    "browserslist": [
+        "defaults",
+        "not IE 11",
+        "maintained node versions"
+    ]
 }

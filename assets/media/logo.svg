@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="site-logo-svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="var(--logo-bg)"/>
+
+  <!-- Accent nodes (stay constant) -->
+  <circle cx="409.92991" cy="462.97834" r="25.4715" fill="#4ade80"/>
+  <circle cx="102.07009" cy="462.97834" r="25.4715" fill="#4ade80"/>
+  <circle cx="259.18587" cy="49.02166" r="25.4715" fill="#4ade80"/>
+  <circle cx="166.56245" cy="285.78693" r="25.4715" fill="#4ade80"/>
+
+  <!-- Lines + arrows -->
+  <g stroke="var(--logo-fg)" fill="var(--logo-fg)" stroke-miterlimit="10">
+    
+    <g>
+      <line x1="184.7644" y1="235.77736" x2="252.73792" y2="49.02165" stroke-width="var(--logo-stroke-width)"/>
+      <polygon points="203.63025 236.99426 175.83331 260.31543 169.53015 224.58286 203.63025 236.99426"/>
+    </g>
+
+    <g>
+      <line x1="393.18018" y1="415.44624" x2="264.05658" y2="49.02165" stroke-width="var(--logo-stroke-width)"/>
+      <polygon points="408.5285 404.40871 401.85895 440.07469 374.30286 416.46942 408.5285 404.40871"/>
+    </g>
+
+    <g>
+      <line x1="344.73511" y1="285.77138" x2="218.14679" y2="285.77138" stroke-width="var(--logo-stroke-width)"/>
+      <polygon points="223.45581 267.62712 192.03394 285.77138 223.45581 303.91564 223.45581 267.62712"/>
+    </g>
+
+    <g>
+      <line x1="119.3374" y1="415.53664" x2="166.56812" y2="285.77138" stroke-width="var(--logo-stroke-width)"/>
+      <polygon points="138.20319 416.75354 110.40625 440.07471 104.10315 404.34213 138.20319 416.75354"/>
+    </g>
+
+  </g>
+</svg>

@@ -1,0 +1,527 @@
+---
+title: Sensitivity and Specificity values for tests
+subtitle: A Simulation-based Exploration
+date: 2025-02-02T17:41:38-05:00
+draft: true
+tags: []
+categories: []
+format: hugo-md
+knitr:
+    opts_chunk:
+        fig.path: "images/"
+author:
+  name: "Ali Sajid Imami"
+  link: "/about_me/"
+  avatar: "/images/aliimami.png"
+  email: "<hello@aliimami.com>"
+---
+
+```{r}
+#| label: setup
+#| echo: false
+#| include: false
+
+
+knitr::opts_chunk$set( # nolint: extraction_operator_linter.
+    collapse = TRUE,
+    comment = "#>",
+    cache = FALSE,
+    echo = FALSE,
+    message = FALSE,
+    warning = FALSE,
+    fig.path = "images/"
+)
+
+suppressPackageStartupMessages({
+    library(tidyverse)
+    library(patchwork)
+})
+```
+
+
+# Introduction
+
+
+Tests, whether diagnostic or screening, are the mainstay of Medicine.
+A major challenge for developing any sort of diagnostic or screening test is
+that the measurements and the outcome scales are incompatible. Most, if not all,
+parameters recorded in biology are continuous in nature. However, we usually need the
+outcome to be binary. This then requires the transformation of the continuous
+parameter into a binary outcome by applying a threshold parameter.
+
+The selection of the threshold parameter then becomes paramount in determining
+the usefulness of the test in question. To quantify this usefulness, two parameters,
+called Sensitivity and Specificity are used. These parameters, along with Accuracy
+are used to describe the performance of a diagnostic test.
+
+Sensitivity is defined as the proportion of tests that correctly identify the cases
+with a condition among all the cases. In other words, Sensitivity can be defined
+as the proportion of _True Positives_ identified by the test.
+
+Specificity, on the other hand, is the proportion of tests that correctly identify
+the individuals without the condition among all the controls. In other words, Specificity
+can be defined as the proportion of _True Negatives_ identified by the test.
+
+Baked into the above description are one assumption and two other options for the results.
+
+The assumption is that there exists a source of truth that is ostensibly infallible
+and can identify all the cases and controls correctly. This is often called the _Gold Standard_
+in medical statistics.
+
+The other two results are conveniently called _False Positives_ (Controls without the condition, with a positive test)
+and _False Negatives_ (Cases with the condition with a negative test).
+
+The above description can be summarized in the following table, where the Gold Standard 
+results are the columns and the test results are the rows.
+
+|  | Disease | Healthy |
+| --------------- | --------------- | --------------- |
+| Positive | True Positive (TP) | False Positive (FP) |
+| Negative | False Negative (FN) | True Negative (TN) |
+
+In this document, we explore the way we can identify the threshold while maximizing
+the yield of the test.
+
+## Problem Statement
+
+For this purpose of this simulation, we will explore the case for diagnosing Hypertension (HTN). HTN
+by its very definition relies on the measurement of the Blood Pressure (BP). However,
+blood pressure is recorded as two continuous parameters, Systolic BP (SBP) and
+Diastolic BP (DBP) which can range from $0$ to $>200$. However, the outcome of interest
+in this case is whether the person has HTN or not. This is obviously a question
+with a binary answer.
+
+The American Heart Association (AHA) has a recommended threshold for HTN at SBP $> 140$
+or DBP $>90$. These values were decided based on large-sample epidemiological studies,
+and taking into account other complications that arise from HTN. There does not
+exist a universal hallmark of HTN, so we use estimation based on other manifestations.
+
+For the purpose of this simulation, we will be simulating the SBP only. This SBP
+will be generated based on distributions that have different centers of mass, and
+we will then test different thresholds and identify the optimal thresholds
+
+## Generating the data
+
+SBP is generally recorded as an integer value. It is also assumed to be normally
+distributed with a rather narrow variance. Sadly, `R` does not provide a way to
+generate normally distributed integers directly. However, we can take a small detour 
+and achieve the same results.
+
+Table @tbl-parameters summarizes the variations of cases and controls we will be using.
+
+| Status | Identifier | Mean SBP ($\mu$) | SD SBP ($\sigma$) | $N$ |
+| :------------- | :--------------: | :--------------: | :-----------:|:----:|
+| Controls | $CTL$ | 100 | 15 | 5000 |
+| Cases (Low) | $HTN_l$ | 140 | 15 | 5000 |
+| Cases (Medium)| $HTN_m$ | 160 | 15 | 5000 |
+| Cases (High) | $HTN_h$ | 180 | 15 | 5000 |
+
+: Parameters for simulation {#tbl-parameters}
+
+```{r}
+#| label: data_generation
+#| include: true
+#| echo: true
+#| code-fold: false
+
+set.seed(1989L)
+
+generate_random_data <- function(n, mu, sigma) {
+    # Calculate the lower bound of possible values up to 4 SDs away
+    lower_bound <- floor(mu - (sigma * 3L))
+
+    # Calculate the upper bound of possible values up to 4 SDs away
+    upper_bound <- ceiling(mu + (sigma * 3L))
+
+    # Generate the full range of values
+    possible_values <- lower_bound:upper_bound
+
+    # Calculate the vector of probabilities for each value
+    probabilities <- dnorm(possible_values, mean = mu, sd = sigma)
+
+    # Sample values from the possible_values vector with replacement
+    # using the probabilities we generated
+    sample(possible_values, size = n, replace = TRUE, prob = probabilities)
+}
+
+controls <- generate_random_data(n = 5000L, mu = 100L, sigma = 15L)
+cases_low <- generate_random_data(n = 5000L, mu = 140L, sigma = 15L)
+cases_medium <- generate_random_data(n = 5000L, mu = 160L, sigma = 15L)
+cases_high <- generate_random_data(n = 5000L, mu = 180L, sigma = 15L)
+
+patient_ids <- sprintf("P%05d", 1L:20000L)
+
+sim_data <- tibble(
+    ID = patient_ids,
+    ST = as_factor(c(
+        rep("CTL", 5000L), rep("HTN_l", 5000L),
+        rep("HTN_m", 5000L), rep("HTN_h", 5000L)
+    )),
+    BP = c(controls, cases_low, cases_medium, cases_high)
+)
+```
+
+The code block above contains the sample generation system we have used
+to generate this data. Summarily, it defines a function `generate_random_data`
+and then uses that to generate the randomized data. This is followed by
+combining all the data into a single data frame for convenience.
+
+The logic inside the `generate_random_data` function is the clever part.
+The function signature tells us that it requires us to give it the number of 
+samples we need, the required mean of the data and the standard deviation.
+
+It then uses the standard deviation and mean to generate the integer bounds of the data within +/- 
+3 standard deviations. Then it uses the `dnorm` function to generate probability density
+for each individual value. This probability vector is then used with the `sample` function
+to sample the data based on these probabilities.
+
+## Data Exploration
+
+Now that we have generated the data, we can explore it to ensure that the
+random data we generated is within the parameters we expected.
+
+### Summary Statistics
+
+
+Table @tbl-summary-statistic shows the summary statistics for the
+generated dataset. When we look at it, we can verify that the empirical means and SDs
+are close to what the input was and the Median values are exactly what we input 
+as a mean. That is all to be expected.
+
+```{r}
+#| label: tbl-summary-statistic
+#| tbl-cap: "Summary Statistics for each Cohort"
+#| tbl-cap-location: bottom
+
+sim_data |>
+    group_by(ST) |>
+    summarize(
+        Count = n(),
+        Minimum = min(BP),
+        Mean = mean(BP),
+        Median = median(BP),
+        Maximum = max(BP),
+        `Std. Dev` = sd(BP)
+    ) |>
+    mutate(Condition = case_when(
+        ST == "CTL" ~ "Control",
+        ST == "HTN_l" ~ "Hypertension (Low)",
+        ST == "HTN_m" ~ "Hypertension (Medium)",
+        ST == "HTN_h" ~ "Hypertension (High)",
+    )) |>
+    select(Condition, everything(), -ST) |>
+    knitr::kable(
+        digits = 2L
+    )
+```
+
+### Exploratory Visualization
+
+Table @tbl-summary-statistic has given us confidence in the data. However,
+it is always a good idea to visualize your dataset to ensure it is the shape
+we expected it to be.
+
+
+```{r}
+#| label: fig-exploratory-visualization
+#| fig-cap: "Systolic Blood Pressure Distribution across groups"
+
+g <- ggplot(sim_data, aes(x = BP, group = ST, fill = ST))
+
+p <- g +
+    geom_histogram(bins = 50L) +
+    xlab("Systolic BP") + ylab("Number of Patients") +
+    scale_x_continuous(limits = c(60L, 250L), breaks = seq(0L, 500L, 20L)) +
+    scale_fill_viridis_d(
+        name = "Status",
+        breaks = c("CTL", "HTN_l", "HTN_m", "HTN_h"),
+        labels = c("Control", "Hypertensive (Low)", "Hypertensive (Medium)", "Hypertensive (High)"),
+        alpha = 0.7
+    ) +
+    theme_minimal() +
+    guides(fill = guide_legend(position = "bottom"))
+
+p
+```
+
+@fig-exploratory-visualization shows us a histogram of the values in our
+dataset colored by the class they belong to. It is evident from @fig-exploratory-visualization
+that we have four groups that all have an approximately normal value distribution.
+It is also clear that all of these values overlap in the tails with the other
+classes. This is where the uncertainty in our little experiment comes in, and
+what allows us to test the performance of our given threshold.
+
+## Sensitivity and Specificity Calculation
+
+```{r}
+#| label: utility_methods
+
+# Calculate parameters for the dataset, given a threshold
+calculate_results <- function(dataset, threshold) {
+    augmented_dataset <- dataset |>
+        mutate(PST = as_factor(if_else(BP <= threshold, "CTL", "HTN")))
+
+    levels(augmented_dataset$PST) <- c("CTL", "HTN")
+
+    tabulated <- with(augmented_dataset, table(ST, PST))
+
+
+    TN <- tabulated[1L]
+    FN <- tabulated[2L]
+    FP <- tabulated[3L]
+    TP <- tabulated[4L]
+    Sn <- TP / (FP + TP)
+    Sp <- TN / (TN + FN)
+    Ac <- (TN + TP) / (TN + TP + FN + FP)
+
+    list(
+        TN = TN,
+        FN = FN,
+        FP = FP,
+        TP = TP,
+        Sn = Sn,
+        Sp = Sp,
+        Ac = Ac
+    )
+}
+
+
+calculate_roc_paramaters <- function() {
+
+}
+
+generate_roc_curve <- function(input_parameters) {
+    computed_parameters <- input_parameters |>
+        mutate(
+            y = if_else(is.na(Sn), 0L, Sn),
+            x = 1L - if_else(is.na(Sp), 0L, Sp)
+        ) |>
+        arrange(TH)
+
+    g <- ggplot(computed_parameters, aes(y = y, x = x))
+
+    g + geom_point() +
+        geom_line() +
+        geom_abline(slope = 1L, color = "grey80", lwd = 1.5) +
+        scale_x_continuous(
+            limits = c(0L, 1L),
+            breaks = seq(0L, 1L, 0.20),
+            minor_breaks = seq(0L, 1L, 0.05),
+            labels = scales::percent_format()
+        ) +
+        scale_y_continuous(
+            limits = c(0L, 1L),
+            breaks = seq(0L, 1L, 0.20),
+            minor_breaks = seq(0L, 1L, 0.05),
+            labels = scales::percent_format()
+        ) +
+        xlab("1 - Specificity") + ylab("Sensitivity") +
+        theme_minimal()
+}
+
+roundX <- function(nums) {
+    # Ensure the input is a numeric vector of length 2
+    stopifnot(length(nums) == 2L)
+
+    # Round the lower bound down to the nearest multiple of 10
+    low <- floor(nums[1L] / 10L) * 10L
+
+    # Round the upper bound up to the nearest multiple of 10
+    high <- ceiling(nums[2L] / 10L) * 10L
+
+    # Return the rounded bounds as a vector
+    c(low, high)
+}
+```
+
+### Control v. Hypertension (Low)
+
+For our first set, let's compare the different thresholds we can possibly
+use to classify the population as either normal or hypertensive.
+
+As a first step, let's visualize the summary statistics of the two groups
+we are interested in.
+
+```{r}
+#| label: fig-summary-figures-low
+
+sim_data_l <- sim_data |>
+    filter(ST %in% c("CTL", "HTN_l")) |>
+    droplevels()
+
+g_l_hist <- ggplot(sim_data_l, aes(x = BP, group = ST, fill = ST))
+
+p_l_hist <- g_l_hist +
+    geom_histogram(aes(y = after_stat(count / sum(count))), binwidth = 10L) +
+    xlab("Systolic BP") + ylab("Number of Patients") +
+    scale_x_continuous(limits = c(50L, 200L), breaks = seq(0L, 500L, 20L)) +
+    scale_y_continuous(
+        labels = scales::percent_format(),
+        breaks = seq(0L, 1L, 0.01),
+        minor_breaks = seq(0L, 1L, 0.005)
+    ) +
+    scale_fill_viridis_d(
+        name = "Status",
+        breaks = c("CTL", "HTN_l"),
+        labels = c("Control", "Hypertensive (Low)"),
+        alpha = 0.5
+    ) +
+    theme_minimal() +
+    guides(fill = guide_legend(position = "bottom"))
+
+g_l_boxplot <- ggplot(sim_data_l, aes(x = ST, y = BP, fill = ST))
+
+p_l_boxplot <- g_l_boxplot +
+    geom_violin(width = 0.8, draw_quantiles = c(0.10, 0.25, 0.5, 0.75, 0.90)) +
+    ylab("Systolic BP") +
+    scale_y_continuous(limits = c(50L, 200L), breaks = seq(0L, 500L, 20L)) +
+    scale_x_discrete(
+        name = "Patient Class",
+        breaks = c("CTL", "HTN_l"),
+        labels = c("Control", "Hypertensive (Low)")
+    ) +
+    scale_fill_viridis_d(
+        name = "Status",
+        breaks = c("CTL", "HTN_l"),
+        labels = c("Control", "Hypertensive (Low)"),
+        alpha = 0.7
+    ) +
+    theme_minimal() +
+    guides(fill = "none")
+
+p <- (p_l_hist + p_l_boxplot) / guide_area() +
+    plot_layout(
+        widths = c(2L, 1L), heights = c(9L, 1L),
+        guides = "collect", axis_titles = "collect"
+    )
+
+p
+```
+
+Looking at @fig-summary-figures-low we can see that both groups of simulated
+patients have a normal distribution of their SBP, with a small amount of overlap
+mainly in the 90 to 140 range.
+
+We can go ahead and calculate the Sensitivity, Specificity and other
+parameters at each individual value from the minimum to maximum in our dataset.
+
+```{r}
+#| label: threshold_determination_low
+
+thresholds_range <- roundX(range(sim_data_l[["BP"]]))
+
+thresholds <- thresholds_range[1L]:thresholds_range[2L]
+
+computed_parameters_l <- thresholds |>
+    set_names() |>
+    map(~ calculate_results(sim_data_l, .x)) |>
+    bind_rows(.id = "TH") |>
+    mutate(
+        TH = as.numeric(TH),
+        across(where(is.numeric), ~ round(.x, 3L))
+    ) |>
+    filter(!is.na(Sn), !is.na(Sp))
+
+
+start_threshold <- computed_parameters_l |>
+    filter(TH == min(TH))
+
+max_accuracy <- computed_parameters_l |>
+    filter(Ac == max(Ac))
+
+max_sensitivity <- computed_parameters_l |>
+    filter(Sn == max(Sn)) |>
+    slice_tail(n = 1L)
+
+max_specificity <- computed_parameters_l |>
+    filter(Sp == max(Sp))
+
+min_accuracy <- computed_parameters_l |>
+    filter(Ac == min(Ac)) |>
+    slice_tail(n = 1L)
+
+min_sensitivity <- computed_parameters_l |>
+    filter(Sn == min(Sn)) |>
+    filter(Sp == min(Sp))
+
+min_specificity <- computed_parameters_l |>
+    filter(Sp == min(Sp))
+
+end_threshold <- computed_parameters_l |>
+    filter(TH == max(TH))
+```
+
+#### Visualization of the Parameters
+
+```{r}
+#| label: fig-roc-l
+
+generate_roc_curve(computed_parameters_l)
+```
+
+The classic visualization of Sensitivity vs Specificity is known as the
+"Receiver Operating Characteristic" curve or the ROC curve. This curve plots
+the Sensitivity (True Positives) against the 1 - Specificity (False Negative)
+for each threshold evaluated. @fig-roc-l shows how the parameters vary as we
+move the threshold for declaring a person hypertensive from
+`r start_threshold[["TH"]]` to `r end_threshold[["TH"]]`.
+
+In these values, you'll see a few obvious patterns:
+
+* The line graph starts at a high level of sensitivity and specificity. It then grows
+slowly, as we increase the threshold until we get to 100% Sensitivity but 50%
+Specificity.
+
+* There is a sharp drop in the middle, where the Sensitivity drops from 100% to
+0% suddenly, while the Specificity stays 50%.
+
+* From the 0% Sensitivity, the Specificity starts dropping until we reach the minimum
+Specificity achievable
+
+We can see from @fig-roc-l that there are both desirable and undesirable thresholds
+in the full threshold space. The values closer to the middle tend to be worse for
+our test's performance.
+
+```{r}
+#| label: fig-annotated-histogram
+
+
+p_l_hist +
+    geom_segment(
+        x = start_threshold[["TH"]],
+        y = 0L,
+        xend = start_threshold[["TH"]],
+        yend = Inf,
+        color = "red"
+    ) +
+    geom_segment(
+        x = end_threshold[["TH"]],
+        y = 0L,
+        xend = end_threshold[["TH"]],
+        yend = Inf,
+        color = "red"
+    ) +
+    geom_segment(
+        x = max_sensitivity[["TH"]],
+        y = 0L,
+        xend = max_sensitivity[["TH"]],
+        yend = Inf,
+        color = "green"
+    )
+# geom_text(aes(
+#     x = start_threshold[["TH"]], y = after_stat(y) * 1.05,
+#     label = "Start"
+# ), color = "red", angle = 90L, vjust = -0.5)
+# Adding text labels slightly above the histogram
+# geom_text(aes(x = start_threshold[["TH"]], y = max(..count..) * 1.05,
+#               label = "Start"), color = "red", angle = 90, vjust = -0.5) +
+# geom_text(aes(x = end_threshold[["TH"]], y = max(..count..) * 1.05,
+#               label = "End"), color = "red", angle = 90, vjust = -0.5) +
+# geom_text(aes(x = max_accuracy[["TH"]], y = max(..count..) * 1.05,
+#               label = "Max Acc"), color = "green", angle = 90, vjust = -0.5)
+```
+
+
+{{< center-quote >}}
+So long, and thanks for all the fish.
+{{< /center-quote >}}

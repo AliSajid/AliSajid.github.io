@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+    "version": "0.2",
+    "dictionaryDefinitions": [
+        {
+            "name": "project-cased",
+            "description": "A project-specific dictionary with fixed-case words",
+            "path": "./styles/config/vocabularies/CSpell/cased.txt",
+            "addWords": true,
+            "supportNonStrictSearches": false
+        },
+        {
+            "name": "project-uncased",
+            "description": "A project-specific dictionary with non-fixed-case words",
+            "path": "./styles/config/vocabularies/CSpell/uncased.txt",
+            "addWords": true,
+            "supportNonStrictSearches": true
+        }
+    ],
+    "dictionaries": [
+        "project-cased",
+        "project-uncased"
+    ],
+    "ignorePaths": [
+        "node_modules",
+        "/public",
+        "/styles/config/vocabularies/Academic",
+        "/styles/config/vocabularies/CSpell",
+        "/content/publications"
+    ]
+}
